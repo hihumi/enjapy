@@ -16,16 +16,12 @@ def re_word(word):
     dir: print_wordにある各関数を呼び出す。
     """
 
-    man_re = re.compile(r'[mM]an')
-    you_re = re.compile(r'[yY]ou')
+    man_re = re.compile(r'man$', re.I)
+    you_re = re.compile(r'you$', re.I)
 
-    if man_re.match(word): # or searcn()
+    if man_re.search(word):
         man.man()
-    elif you_re.match(word):
+    elif you_re.search(word):
         you.you()
     else:
         print('not found...')
-
-if __name__ == '__main__':
-    outer_word = 'enjapy'
-    re_word(outer_word)

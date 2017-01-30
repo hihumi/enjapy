@@ -22,15 +22,20 @@ def main():
     print('(終了する場合は、q, またはQキーを入力してください。)')
     print('>>> ', end='')
     while True:
-        word = input()
+        try:
+            word = input()
 
-        if word == 'q' or word == 'Q':
-            print('See you!')
-            break
+        except (TypeError, ValueError) as err:
+            print('Error: {} おっと、エラーです。半角アルファベットで入力してください。'.format(err))
 
-        re_word.re_word(word)
+        else:
+            if word == 'q' or word == 'Q':
+                print('See you!')
+                break
 
-        print('>>> ', end='')
+            re_word.re_word(word)
+
+            print('>>> ', end='')
 
 if __name__ == '__main__':
     main()
