@@ -11,6 +11,7 @@ import re
 # r
 from print_ja_word import respect
 from print_ja_word import respectful
+from print_ja_word import respectable
 # y
 from print_ja_word import you
 # m
@@ -48,6 +49,7 @@ def re_en_word(word):
     # r
     respect_re = re.compile(r'respect$', re.I)
     respectful_re = re.compile(r'respectful$', re.I)
+    respectable_re = re.compile(r'respectable$', re.I)
     # s
     # t
     # u
@@ -55,9 +57,11 @@ def re_en_word(word):
     # w
     # x
     # y
+
     you_re = re.compile(r'you$', re.I)
 
     # z
+
 
     #
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -86,6 +90,8 @@ def re_en_word(word):
         respect.respect()
     elif respectful_re.search(word):
         respectful.respectful()
+    elif respectable_re.search(word):
+        respectable.respectable()
     # s
     # t
     # u
