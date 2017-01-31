@@ -8,14 +8,17 @@
 import re
 
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
+#
 # r
 from print_ja_word import respect
 from print_ja_word import respectful
 from print_ja_word import respectable
+
+# w
+from print_ja_word import will
+
 # y
 from print_ja_word import you
-# m
-from print_ja_word import man
 
 
 def re_en_word(word):
@@ -39,8 +42,6 @@ def re_en_word(word):
     # l
 
     # m
-    man_re = re.compile(r'man$', re.I)
-
     # n
     # o
     # p
@@ -55,6 +56,7 @@ def re_en_word(word):
     # u
     # v
     # w
+    will_re = re.compile(r'will$', re.I)
     # x
     # y
 
@@ -79,14 +81,12 @@ def re_en_word(word):
     # k
     # l
     # m
-    if man_re.search(word):
-        man.man()
     # n
     # o
     # p
     # q
     # r
-    elif respect_re.search(word):
+    if respect_re.search(word):
         respect.respect()
     elif respectful_re.search(word):
         respectful.respectful()
@@ -97,6 +97,9 @@ def re_en_word(word):
     # u
     # v
     # w
+    elif will_re.search(word):
+        will.will()
+
     # x
     # y
     elif you_re.search(word):
