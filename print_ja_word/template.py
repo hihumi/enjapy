@@ -12,10 +12,10 @@ def xxx():
     (test内容)
     """
 
-    x_ja = """
+    xxx_ja = """
 """
 
-    print(x_ja)
+    print(xxx_ja)
 
 if __name__ == '__main__':
     import doctest
