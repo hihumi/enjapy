@@ -8,7 +8,7 @@ main.py
 """
 
 
-from re_word import re_word
+from re_en_word import re_en_word
 
 
 def main():
@@ -33,7 +33,7 @@ def main():
                 print('See you!')
                 break
 
-            re_word.re_word(word)
+            re_en_word.re_en_word(word)
 
             print('>>> ', end='')
 
