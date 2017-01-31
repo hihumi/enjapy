@@ -9,6 +9,7 @@ import re
 
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
+#
 # r
 from print_ja_word import respect
 from print_ja_word import respectful
@@ -16,6 +17,7 @@ from print_ja_word import respectable
 
 # w
 from print_ja_word import will
+from print_ja_word import willpower
 
 # y
 from print_ja_word import you
@@ -26,6 +28,7 @@ def re_en_word(word):
     dir: print_wordにある各関数を呼び出す。
     """
 
+    # re.compile:
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
     #
     # a
@@ -55,8 +58,10 @@ def re_en_word(word):
     # t
     # u
     # v
+
     # w
     will_re = re.compile(r'will$', re.I)
+    willpower_re = re.compile(r'willpower$', re.I)
     # x
     # y
 
@@ -65,6 +70,7 @@ def re_en_word(word):
     # z
 
 
+    # re.search:
     #
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
     #
@@ -85,6 +91,7 @@ def re_en_word(word):
     # o
     # p
     # q
+
     # r
     if respect_re.search(word):
         respect.respect()
@@ -92,18 +99,24 @@ def re_en_word(word):
         respectful.respectful()
     elif respectable_re.search(word):
         respectable.respectable()
+
     # s
     # t
     # u
     # v
+
     # w
     elif will_re.search(word):
         will.will()
+    elif willpower_re.search(word):
+        willpower.willpower()
 
     # x
+
     # y
     elif you_re.search(word):
         you.you()
+
     # z
     #
     else:
