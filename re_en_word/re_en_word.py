@@ -9,14 +9,14 @@ import re
 
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
 # r
-from print_word import respect
+from print_ja_word import respect
 # y
-from print_word import you
+from print_ja_word import you
 # m
-from print_word import man
+from print_ja_word import man
 
 
-def re_word(word):
+def re_en_word(word):
     """この関数は、main.pyで入力されたwordが、正規表現に合致するかどうか調べ、
     dir: print_wordにある各関数を呼び出す。
     """
