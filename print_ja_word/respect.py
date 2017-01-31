@@ -13,10 +13,10 @@ def respect():
     [名]: [不可算]: (1) 尊敬
     """
 
-    r_ja = """[動]: (1) ...を尊重する (2) ...を尊敬する
+    respect_ja = """[動]: (1) ...を尊重する (2) ...を尊敬する
 [名]: [不可算]: (1) 尊敬"""
 
-    print(r_ja)
+    print(respect_ja)
 
 if __name__ == '__main__':
     import doctest
