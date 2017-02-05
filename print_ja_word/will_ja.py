@@ -17,9 +17,9 @@ def will_ja_func():
     [名]: (1) [加算・不加算]: 意志 (2) [加算]: 遺書
     """
 
-    will_ja_text = """[名]: (1) [加算・不加算]: 意志 (2) [加算]: 遺書"""
+    will_ja_words = """[名]: (1) [加算・不加算]: 意志 (2) [加算]: 遺書"""
 
-    print(will_ja_text)
+    print(will_ja_words)
 
 if __name__ == '__main__':
     import doctest

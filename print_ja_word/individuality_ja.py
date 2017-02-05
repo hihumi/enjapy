@@ -12,9 +12,9 @@ def individuality_ja_func():
     [名]: [不加算]: 個性
     """
 
-    individuality_ja_text = """[名]: [不加算]: 個性"""
+    individuality_ja_words = """[名]: [不加算]: 個性"""
 
-    print(individuality_ja_text)
+    print(individuality_ja_words)
 
 if __name__ == '__main__':
     import doctest

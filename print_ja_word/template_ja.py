@@ -12,10 +12,10 @@ def xxx_ja_func():
     (test内容)
     """
 
-    xxx_ja_text = """
+    xxx_ja_words = """
 """
 
-    print(xxx_ja_text)
+    print(xxx_ja_words)
 
 if __name__ == '__main__':
     import doctest

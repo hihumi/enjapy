@@ -12,9 +12,9 @@ def respectable_ja_func():
     [形]: (1) (世間的・社会的に)まともな (2) (量等が)かなりの
     """
 
-    respectable_ja_text = """[形]: (1) (世間的・社会的に)まともな (2) (量等が)かなりの"""
+    respectable_ja_words = """[形]: (1) (世間的・社会的に)まともな (2) (量等が)かなりの"""
 
-    print(respectable_ja_text)
+    print(respectable_ja_words)
 
 if __name__ == '__main__':
     import doctest

@@ -13,10 +13,10 @@ def individual_ja_func():
     [形]: (1) 個人の (2) 個々の (3) 個性的な
     """
 
-    individual_ja_text = """[名]: [加算]: 個人
+    individual_ja_words = """[名]: [加算]: 個人
 [形]: (1) 個人の (2) 個々の (3) 個性的な"""
 
-    print(individual_ja_text)
+    print(individual_ja_words)
 
 if __name__ == '__main__':
     import doctest

@@ -12,9 +12,9 @@ def a_ja_func():
     えい・えー
     """
 
-    a_ja_text = """えい・えー"""
+    a_ja_words = """えい・えー"""
 
-    print(a_ja_text)
+    print(a_ja_words)
 
 if __name__ == '__main__':
     import doctest
