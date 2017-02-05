@@ -8,7 +8,7 @@ main.py
 """
 
 
-from re_en_word.re_search_en_word import re_search_en_word
+from re_en.re_search_en import re_search_en_func
 
 
 def main():
@@ -33,7 +33,7 @@ def main():
                 print('See you!')
                 break
 
-            re_search_en_word(word)
+            re_search_en_func(word)
 
             print('>>> ', end='')
 
