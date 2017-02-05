@@ -11,34 +11,34 @@ import re
 #
 # from print_ja_word ~
 # a
-from print_ja_word.a_ja import a_ja_func
+from print_ja.a_ja import a_ja_func
 # i
-from print_ja_word.individual_ja import individual_ja_func
-from print_ja_word.individuality_ja import individuality_ja_func
+from print_ja.individual_ja import individual_ja_func
+from print_ja.individuality_ja import individuality_ja_func
 
 # r
-from print_ja_word.respect_ja import respect_ja_func
-from print_ja_word.respectful_ja import respectful_ja_func
-from print_ja_word.respectable_ja import respectable_ja_func
+from print_ja.respect_ja import respect_ja_func
+from print_ja.respectful_ja import respectful_ja_func
+from print_ja.respectable_ja import respectable_ja_func
 
 
 # w
-from print_ja_word.will_ja import will_ja_func
-from print_ja_word.willpower_ja import willpower_ja_func
+from print_ja.will_ja import will_ja_func
+from print_ja.willpower_ja import willpower_ja_func
 
 # y
-from print_ja_word.you_ja import you_ja_func
+from print_ja.you_ja import you_ja_func
 
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
 # re.compile関係
-from re_en_word.a_re import a_re_func
+from re_en.a_re import a_re_func
 # re.compileの関数化test
 # def a_re():
 #     a_re = re.compile(r'a$', re.I)
 #     return a_re
 
 
-def re_search_en_word(word):
+def re_search_en_func(word):
     """この関数は、main.pyで入力されたwordが、正規表現に合致するかどうか調べ、
     dir: print_wordにある各関数を呼び出す。
     """
