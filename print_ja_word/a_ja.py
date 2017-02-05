@@ -4,19 +4,19 @@
 """aの日本語意味を出力する(これはif-elif-elseの先頭のifに使うだけ)
 """
 
-def a():
+def a_ja_func():
     """aの日本語意味を出力する関数
 
     doctest:
-    >>> a()
-    a
+    >>> a_ja_func()
+    えい・えー
     """
 
-    a_ja = """a"""
+    a_ja_text = """えい・えー"""
 
-    print(a_ja)
+    print(a_ja_text)
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    a()
+    a_ja_func()

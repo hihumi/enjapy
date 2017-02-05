@@ -4,20 +4,20 @@
 """xxxの日本語意味を出力する
 """
 
-def xxx():
+def xxx_ja_func():
     """xxxの日本語意味を出力する関数
 
     doctest:
-    >>> xxx()
+    >>> xxx_ja_func()
     (test内容)
     """
 
-    xxx_ja = """
+    xxx_ja_text = """
 """
 
-    print(xxx_ja)
+    print(xxx_ja_text)
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    xxx()
+    xxx_ja_func()

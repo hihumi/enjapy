@@ -9,36 +9,50 @@ import re
 
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
+# from print_ja_word ~
 # a
-from print_ja_word import a
+from print_ja_word.a_ja import a_ja_func
 # i
-from print_ja_word import individual
-from print_ja_word import individuality
+from print_ja_word.individual_ja import individual_ja_func
+from print_ja_word.individuality_ja import individuality_ja_func
 
 # r
-from print_ja_word import respect
-from print_ja_word import respectful
-from print_ja_word import respectable
+from print_ja_word.respect_ja import respect_ja_func
+from print_ja_word.respectful_ja import respectful_ja_func
+from print_ja_word.respectable_ja import respectable_ja_func
 
 
 # w
-from print_ja_word import will
-from print_ja_word import willpower
+from print_ja_word.will_ja import will_ja_func
+from print_ja_word.willpower_ja import willpower_ja_func
 
 # y
-from print_ja_word import you
+from print_ja_word.you_ja import you_ja_func
+
+# re.compile関係
+from re_en_word.a_re import a_re_func
+# re.compileの関数化test
+# def a_re():
+#     a_re = re.compile(r'a$', re.I)
+#     return a_re
 
 
-def re_en_word(word):
+def re_search_en_word(word):
     """この関数は、main.pyで入力されたwordが、正規表現に合致するかどうか調べ、
     dir: print_wordにある各関数を呼び出す。
     """
 
+
+    # TODO: re.compile関係を関数化すること
+    # a_re = a_re_func() # これはいらない
+    # これでいい
+    # if a_re_func().search(word):
+    #     a_ja_func()
     # re.compile:
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
     #
     # a
-    a_re = re.compile(r'a$', re.I)
+    #a_re = re.compile(r'a$', re.I)
     # b
     # c
     # d
@@ -79,8 +93,8 @@ def re_en_word(word):
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
     #
     # a
-    if a_re.search(word):
-        a.a()
+    if a_re_func().search(word):
+        a_ja_func()
     # b
     # c
     # d
@@ -90,9 +104,9 @@ def re_en_word(word):
     # h
     # i
     elif individual_re.search(word):
-        individual.individual()
+        individual_ja_func()
     elif individuality_re.search(word):
-        individuality.individuality()
+        individuality_ja_func()
     # j
     # k
     # l
@@ -103,24 +117,24 @@ def re_en_word(word):
     # q
     # r
     elif respect_re.search(word):
-        respect.respect()
+        respect_ja_func()
     elif respectful_re.search(word):
-        respectful.respectful()
+        respectful_ja_func()
     elif respectable_re.search(word):
-        respectable.respectable()
+        respectable_ja_func()
     # s
     # t
     # u
     # v
     # w
     elif will_re.search(word):
-        will.will()
+        will_ja_func()
     elif willpower_re.search(word):
-        willpower.willpower()
+        willpower_ja_func()
     # x
     # y
     elif you_re.search(word):
-        you.you()
+        you_ja_func()
     # z
     #
     else:

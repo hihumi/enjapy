@@ -4,19 +4,19 @@
 """willpowerの日本語意味を出力する
 """
 
-def willpower():
+def willpower_ja_func():
     """willpowerの日本語意味を出力する関数
 
     doctest:
-    >>> willpower()
+    >>> willpower_ja_func()
     [名]: [不加算]: 意志力
     """
 
-    willpower_ja = """[名]: [不加算]: 意志力"""
+    willpower_ja_text = """[名]: [不加算]: 意志力"""
 
-    print(willpower_ja)
+    print(willpower_ja_text)
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    willpower()
+    willpower_ja_func()

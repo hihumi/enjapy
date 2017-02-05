@@ -4,21 +4,21 @@
 """respectの日本語意味を出力する
 """
 
-def respect():
+def respect_ja_func():
     """respectの日本語意味を出力する関数
 
     doctest:
-    >>> respect()
+    >>> respect_ja_func()
     [動]: (1) ...を尊重する (2) ...を尊敬する
     [名]: [不可算]: (1) 尊敬
     """
 
-    respect_ja = """[動]: (1) ...を尊重する (2) ...を尊敬する
+    respect_ja_text = """[動]: (1) ...を尊重する (2) ...を尊敬する
 [名]: [不可算]: (1) 尊敬"""
 
-    print(respect_ja)
+    print(respect_ja_text)
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    respect()
+    respect_ja_func()

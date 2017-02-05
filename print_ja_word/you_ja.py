@@ -5,7 +5,7 @@
 """
 
 
-def you():
+def you_ja_func():
     """youの日本語意味を出力する関数
     """
 

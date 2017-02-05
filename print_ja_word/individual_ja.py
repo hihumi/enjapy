@@ -4,21 +4,21 @@
 """individualの日本語意味を出力する
 """
 
-def individual():
+def individual_ja_func():
     """individualの日本語意味を出力する関数
 
     doctest:
-    >>> individual()
+    >>> individual_ja_func()
     [名]: [加算]: 個人
     [形]: (1) 個人の (2) 個々の (3) 個性的な
     """
 
-    individual_ja = """[名]: [加算]: 個人
+    individual_ja_text = """[名]: [加算]: 個人
 [形]: (1) 個人の (2) 個々の (3) 個性的な"""
 
-    print(individual_ja)
+    print(individual_ja_text)
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    individual()
+    individual_ja_func()

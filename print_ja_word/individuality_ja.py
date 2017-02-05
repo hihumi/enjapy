@@ -4,19 +4,19 @@
 """individualityの日本語意味を出力する
 """
 
-def individuality():
+def individuality_ja_func():
     """individualityの日本語意味を出力する関数
 
     doctest:
-    >>> individuality()
+    >>> individuality_ja_func()
     [名]: [不加算]: 個性
     """
 
-    individuality_ja = """[名]: [不加算]: 個性"""
+    individuality_ja_text = """[名]: [不加算]: 個性"""
 
-    print(individuality_ja)
+    print(individuality_ja_text)
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    individuality()
+    individuality_ja_func()

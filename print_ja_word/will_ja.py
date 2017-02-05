@@ -4,19 +4,24 @@
 """willの日本語意味を出力する
 """
 
-def will():
+#変更
+#file名: will_ja
+#関数名: will_ja_func
+#変数名: will_ja_text
+
+def will_ja_func():
     """willの日本語意味を出力する関数
 
     doctest:
-    >>> will()
+    >>> will_ja_func()
     [名]: (1) [加算・不加算]: 意志 (2) [加算]: 遺書
     """
 
-    will_ja = """[名]: (1) [加算・不加算]: 意志 (2) [加算]: 遺書"""
+    will_ja_text = """[名]: (1) [加算・不加算]: 意志 (2) [加算]: 遺書"""
 
-    print(will_ja)
+    print(will_ja_text)
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    will()
+    will_ja_func()

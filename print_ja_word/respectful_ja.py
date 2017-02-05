@@ -4,19 +4,19 @@
 """respectfulの日本語意味を出力する
 """
 
-def respectful():
+def respectful_ja_func():
     """respectfulの日本語意味を出力する関数
 
     doctest:
-    >>> respectful()
+    >>> respectful_ja_func()
     [形]: 敬意を示す・表す
     """
 
-    respectful_ja = """[形]: 敬意を示す・表す"""
+    respectful_ja_text = """[形]: 敬意を示す・表す"""
 
-    print(respectful_ja)
+    print(respectful_ja_text)
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    respectful()
+    respectful_ja_func()
