@@ -4,6 +4,7 @@
 """willの日本語意味を出力する
 """
 
+
 #変更
 #file名: will_ja
 #関数名: will_ja_func

@@ -4,6 +4,7 @@
 """respectableの日本語意味を出力する
 """
 
+
 def respectable_ja_func():
     """respectableの日本語意味を出力する関数
 

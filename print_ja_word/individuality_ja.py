@@ -4,6 +4,7 @@
 """individualityの日本語意味を出力する
 """
 
+
 def individuality_ja_func():
     """individualityの日本語意味を出力する関数
 

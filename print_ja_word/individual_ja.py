@@ -4,6 +4,7 @@
 """individualの日本語意味を出力する
 """
 
+
 def individual_ja_func():
     """individualの日本語意味を出力する関数
 

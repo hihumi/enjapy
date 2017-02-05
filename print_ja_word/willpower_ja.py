@@ -4,6 +4,7 @@
 """willpowerの日本語意味を出力する
 """
 
+
 def willpower_ja_func():
     """willpowerの日本語意味を出力する関数
 

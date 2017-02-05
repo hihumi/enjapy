@@ -29,6 +29,7 @@ from print_ja_word.willpower_ja import willpower_ja_func
 # y
 from print_ja_word.you_ja import you_ja_func
 
+# a b c d e f g h i j k l m n o p q r s t u v w x y z
 # re.compile関係
 from re_en_word.a_re import a_re_func
 # re.compileの関数化test
