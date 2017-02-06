@@ -10,6 +10,7 @@ def respect_ja_func():
 
     doctest:
     >>> respect_ja_func()
+    respect:
     [動]: (1) ...を尊重する (2) ...を尊敬する
     [名]: [不可算]: (1) 尊敬
     """
