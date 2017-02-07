@@ -10,11 +10,13 @@ def a_ja_func():
 
     doctest:
     >>> a_ja_func()
+    a:
     えい・えー
     """
 
-    a_ja_words = """えい・えー"""
+    print('a:')
 
+    a_ja_words = """えい・えー"""
     print(a_ja_words)
 
 if __name__ == '__main__':
