@@ -1,7 +1,7 @@
 #!/use/bin/env python3
 
 
-"""aの日本語意味を出力する(これはif-elif-elseの先頭のifに使うだけ)
+"""aの日本語意味を出力する(これはif-elif-elseの先頭のifに使うだけ。testに使うだけ)
 """
 
 
