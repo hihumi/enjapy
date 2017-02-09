@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 
-"""
+"""main.pyで入力されたwordが、
+ixxx_reモジュールのixxx_re_func()で作成した正規表現のi、またはIからはじまる英単語と合致した場合、
+ixxx_jaモジュールのixxx_ja_func()を呼ぶ
 """
 
 
@@ -20,8 +22,11 @@ from print_ja.individual_ja import individual_ja_func
 # individuality
 from print_ja.individuality_ja import individuality_ja_func
 
+
 def i_I_re_search_en_func(word):
-    """
+    """main.pyで入力されたwordが、
+    ixxx_reモジュールのixxx_re_func()で作成した正規表現のi、またはIからはじまる英単語と合致した場合、
+    ixxx_jaモジュールのixxx_ja_func()を呼ぶ関数
     """
 
     # i

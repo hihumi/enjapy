@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 
 
+"""main.pyで入力されたwordが、
+wxxx_reモジュールのwxxx_re_func()で作成した正規表現のw、またはWからはじまる英単語と合致した場合、
+wxxx_jaモジュールのwxxx_ja_func()を呼ぶ
 """
-"""
+
 
 # w
 #
@@ -20,7 +23,9 @@ from print_ja.willpower_ja import willpower_ja_func
 
 
 def w_W_re_search_en_func(word):
-    """
+    """main.pyで入力されたwordが、
+    wxxx_reモジュールのwxxx_re_func()で作成した正規表現のw、またはWからはじまる英単語と合致した場合、
+    wxxx_jaモジュールのwxxx_ja_func()を呼ぶ関数
     """
 
     # w

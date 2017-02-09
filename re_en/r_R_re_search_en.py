@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 
-"""
+"""main.pyで入力されたwordが、
+rxxx_reモジュールのrxxx_re_func()で作成した正規表現のr、またはRからはじまる英単語と合致した場合、
+rxxx_jaモジュールのrxxx_ja_func()を呼ぶ
 """
 
 
@@ -25,7 +27,9 @@ from print_ja.respectful_ja import respectful_ja_func
 
 
 def r_R_re_search_en_func(word):
-    """
+    """main.pyで入力されたwordが、
+    rxxx_reモジュールのrxxx_re_func()で作成した正規表現のr、またはRからはじまる英単語と合致した場合、
+    rxxx_jaモジュールのrxxx_ja_func()を呼ぶ関数
     """
 
     # r
