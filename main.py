@@ -14,6 +14,8 @@ import re
 
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
+# from re_en.char_Char_re_search_en import char_Char_re_search_en_func
+#
 # a
 from re_en.a_A_re_search_en import a_A_re_search_en_func
 # i
@@ -30,6 +32,8 @@ def main():
 
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
     #
+    # char_Char_re = re.compile(r'^char', re.I)
+    #
     # a
     a_A_re = re.compile(r'^a', re.I)
     # i
@@ -41,6 +45,7 @@ def main():
 
 
     print('enjapy:')
+    print('Welcome!')
     print()
     print('英単語の意味を日本語で出力します。')
     print('以下に、調べたい英単語を入力してください。')
@@ -59,6 +64,9 @@ def main():
                 break
 
             # a b c d e f g h i j k l m n o p q r s t u v w x y z
+            #
+            # elif char_Char_re.search(word_strip): # char
+            #    char_Char_re_search_en_func(word_strip)
             #
             if a_A_re.search(word_strip): # a
                 a_A_re_search_en_func(word_strip)

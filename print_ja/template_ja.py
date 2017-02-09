@@ -16,8 +16,7 @@ def xxx_ja_func():
 
     print('xxx:')
 
-    xxx_ja_words = """
-"""
+    xxx_ja_words = """"""
 
     print(xxx_ja_words)
 
