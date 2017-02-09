@@ -10,9 +10,12 @@ def individual_ja_func():
 
     doctest:
     >>> individual_ja_func()
+    individual:
     [名]: [加算]: 個人
     [形]: (1) 個人の (2) 個々の (3) 個性的な
     """
+
+    print('individual:')
 
     individual_ja_words = """[名]: [加算]: 個人
 [形]: (1) 個人の (2) 個々の (3) 個性的な"""

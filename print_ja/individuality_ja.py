@@ -10,8 +10,11 @@ def individuality_ja_func():
 
     doctest:
     >>> individuality_ja_func()
+    individuality:
     [名]: [不加算]: 個性
     """
+
+    print('individuality:')
 
     individuality_ja_words = """[名]: [不加算]: 個性"""
 

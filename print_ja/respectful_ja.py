@@ -10,8 +10,11 @@ def respectful_ja_func():
 
     doctest:
     >>> respectful_ja_func()
+    respectful:
     [形]: 敬意を示す・表す
     """
+
+    print('respectful:')
 
     respectful_ja_words = """[形]: 敬意を示す・表す"""
 
