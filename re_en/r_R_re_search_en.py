@@ -9,7 +9,6 @@ rxxx_jaモジュールのrxxx_ja_func()を呼ぶ
 # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from re_en.r_re import r_re_func
-#
 # respect:
 from re_en.respect_re import respect_re_func
 # respectable:
@@ -20,7 +19,6 @@ from re_en.respectful_re import respectful_re_func
 # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from print_ja.r_ja import r_ja_func
-#
 # respect:
 from print_ja.respect_ja import respect_ja_func
 # respectable:

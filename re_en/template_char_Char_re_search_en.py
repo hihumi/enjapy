@@ -7,14 +7,16 @@ charxxx_jaモジュールのcharxxx_ja_func()を呼ぶ
 """
 
 
-# char
+# char: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
-# from re_en.char_re import char_re_func
-# xxx
+# from re_en.charxxx_re import charxxx_re_func
+# xxx:
 from re_en.xxx_re import xxx_re_func
 
-# from print_ja.xxx_ja import xxx_ja_func
-# xxx
+# char: a b c d e f g h i j k l m n o p q r s t u v w x y z
+#
+# from print_ja.charxxx_ja import charxxx_ja_func
+# xxx:
 from print_ja.xxx_ja import xxx_ja_func
 
 

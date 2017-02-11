@@ -9,7 +9,7 @@ axxx_jaモジュールのaxxx_ja_func()を呼ぶ
 
 # a: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
-# from re_en.xxx_re import xxx_re_func
+# from re_en.axxx_re import axxx_re_func
 # a:
 from re_en.a_re import a_re_func
 # assure:
@@ -19,6 +19,7 @@ from re_en.assurance_re import assurance_re_func
 
 # a: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
+# from print_ja.axxx_ja import axxx_ja_func
 # a:
 from print_ja.a_ja import a_ja_func
 # assure:

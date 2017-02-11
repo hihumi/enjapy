@@ -9,11 +9,11 @@ nxxx_jaモジュールのnxxx_ja_func()を呼ぶ
 
 # n: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
-# from re_en.xxx_re import xxx_re_func
+# from re_en.nxxx_re import nxxx_re_func
 # negative:
 from re_en.negative_re import negative_re_func
 
-# from print_ja.xxx_ja import xxx_ja_func
+# from print_ja.nxxx_ja import nxxx_ja_func
 # negative:
 from print_ja.negative_ja import negative_ja_func
 
