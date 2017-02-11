@@ -16,13 +16,13 @@ import re
 #
 # from re_en.char_Char_re_search_en import char_Char_re_search_en_func
 #
-# a
+# a:
 from re_en.a_A_re_search_en import a_A_re_search_en_func
-# i
+# i:
 from re_en.i_I_re_search_en import i_I_re_search_en_func
-# r
+# r:
 from re_en.r_R_re_search_en import r_R_re_search_en_func
-# w
+# w:
 from re_en.w_W_re_search_en import w_W_re_search_en_func
 
 
@@ -34,13 +34,13 @@ def main():
     #
     # char_Char_re = re.compile(r'^char', re.I)
     #
-    # a
+    # a:
     a_A_re = re.compile(r'^a', re.I)
-    # i
+    # i:
     i_I_re = re.compile(r'^i', re.I)
-    # r
+    # r:
     r_R_re = re.compile(r'^r', re.I)
-    # w
+    # w:
     w_W_re = re.compile(r'^w', re.I)
 
 
@@ -65,16 +65,16 @@ def main():
 
             # a b c d e f g h i j k l m n o p q r s t u v w x y z
             #
-            # elif char_Char_re.search(word_strip): # char
+            # elif char_Char_re.search(word_strip): # char:
             #    char_Char_re_search_en_func(word_strip)
             #
-            if a_A_re.search(word_strip): # a
+            if a_A_re.search(word_strip): # a:
                 a_A_re_search_en_func(word_strip)
-            elif i_I_re.search(word_strip): # i
+            elif i_I_re.search(word_strip): # i:
                 i_I_re_search_en_func(word_strip)
-            elif r_R_re.search(word_strip): # r
+            elif r_R_re.search(word_strip): # r:
                 r_R_re_search_en_func(word_strip)
-            elif w_W_re.search(word_strip): # w
+            elif w_W_re.search(word_strip): # w:
                 w_W_re_search_en_func(word_strip)
             else:
                 print('not found...')
