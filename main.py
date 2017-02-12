@@ -16,17 +16,17 @@ import re
 #
 # from re_en.char_Char_re_search_en import char_Char_re_search_en_func
 # a:
-from re_en.a_A_re_search_en import a_A_re_search_en_func
+from re_search_en.a_A_re_search_en import a_A_re_search_en_func
 # i:
-from re_en.i_I_re_search_en import i_I_re_search_en_func
+from re_search_en.i_I_re_search_en import i_I_re_search_en_func
 # n:
-from re_en.n_N_re_search_en import n_N_re_search_en_func
+from re_search_en.n_N_re_search_en import n_N_re_search_en_func
 # o:
-from re_en.o_O_re_search_en import o_O_re_search_en_func
+from re_search_en.o_O_re_search_en import o_O_re_search_en_func
 # r:
-from re_en.r_R_re_search_en import r_R_re_search_en_func
+from re_search_en.r_R_re_search_en import r_R_re_search_en_func
 # w:
-from re_en.w_W_re_search_en import w_W_re_search_en_func
+from re_search_en.w_W_re_search_en import w_W_re_search_en_func
 
 
 def main():
