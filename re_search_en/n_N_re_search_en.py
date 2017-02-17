@@ -24,8 +24,8 @@ def n_N_re_search_en_func(word):
     nxxx_jaモジュールのnxxx_ja_func()を呼ぶ関数
     """
 
-    # n
-    if negative_re_func().search(word): # negative:
+    # n:
+    if negative_re_func().search(word): # negative
         negative_ja_func()
     # elif yyy_re_func().search(word): # yyy
     #    yyy_ja_func()

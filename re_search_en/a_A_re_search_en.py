@@ -35,11 +35,11 @@ def a_A_re_search_en_func(word):
     """
 
     # a:
-    if a_re_func().search(word): # a:
+    if a_re_func().search(word): # a
         a_ja_func()
-    elif assure_re_func().search(word): # assure:
+    elif assure_re_func().search(word): # assure
         assure_ja_func()
-    elif assurance_re_func().search(word): # assurance:
+    elif assurance_re_func().search(word): # assurance
         assurance_ja_func()
     else:
         print('not found...')

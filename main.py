@@ -19,6 +19,8 @@ import re
 from re_search_en.a_A_re_search_en import a_A_re_search_en_func
 # i:
 from re_search_en.i_I_re_search_en import i_I_re_search_en_func
+# m:
+from re_search_en.m_M_re_search_en import m_M_re_search_en_func
 # n:
 from re_search_en.n_N_re_search_en import n_N_re_search_en_func
 # o:
@@ -40,6 +42,8 @@ def main():
     a_A_re = re.compile(r'^a', re.I)
     # i:
     i_I_re = re.compile(r'^i', re.I)
+    # m:
+    m_M_re = re.compile(r'^m', re.I)
     # n:
     n_N_re = re.compile(r'^n', re.I)
     # o:
@@ -74,17 +78,19 @@ def main():
             # elif char_Char_re.search(word_strip): # char:
             #    char_Char_re_search_en_func(word_strip)
             #
-            if a_A_re.search(word_strip): # a:
+            if a_A_re.search(word_strip): # a
                 a_A_re_search_en_func(word_strip)
-            elif i_I_re.search(word_strip): # i:
+            elif i_I_re.search(word_strip): # i
                 i_I_re_search_en_func(word_strip)
-            elif n_N_re.search(word_strip): # n:
+            elif m_M_re.search(word_strip):
+                m_M_re_search_en_func(word_strip)
+            elif n_N_re.search(word_strip): # n
                 n_N_re_search_en_func(word_strip)
-            elif o_O_re.search(word_strip): # o:
+            elif o_O_re.search(word_strip): # o
                 o_O_re_search_en_func(word_strip)
-            elif r_R_re.search(word_strip): # r:
+            elif r_R_re.search(word_strip): # r
                 r_R_re_search_en_func(word_strip)
-            elif w_W_re.search(word_strip): # w:
+            elif w_W_re.search(word_strip): # w
                 w_W_re_search_en_func(word_strip)
             else:
                 print('not found...')

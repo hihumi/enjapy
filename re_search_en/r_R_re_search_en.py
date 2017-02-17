@@ -34,11 +34,11 @@ def r_R_re_search_en_func(word):
     """
 
     # r
-    if respect_re_func().search(word): # respect:
+    if respect_re_func().search(word): # respect
         respect_ja_func()
-    elif respectable_re_func().search(word): # respectable:
+    elif respectable_re_func().search(word): # respectable
         respectable_ja_func()
-    elif respectful_re_func().search(word): # respectful:
+    elif respectful_re_func().search(word): # respectful
         respectful_ja_func()
     else:
         print('not found...')

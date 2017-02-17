@@ -30,10 +30,10 @@ def w_W_re_search_en_func(word):
     wxxx_jaモジュールのwxxx_ja_func()を呼ぶ関数
     """
 
-    # w
-    if will_re_func().search(word): # will:
+    # w:
+    if will_re_func().search(word): # will
         will_ja_func()
-    elif willpower_re_func().search(word): # willpower:
+    elif willpower_re_func().search(word): # willpower
         willpower_ja_func()
     else:
         print('not found...')

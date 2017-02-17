@@ -26,7 +26,7 @@ def char_Char_re_search_en_func(word):
     charxxx_jaモジュールのcharxxx_ja_func()を呼ぶ関数
     """
 
-    # char
+    # char:
     if xxx_re_func().search(word): # xxx
         xxx_ja_func()
     elif yyy_re_func().search(word): # yyy

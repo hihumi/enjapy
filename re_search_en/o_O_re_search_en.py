@@ -24,8 +24,8 @@ def o_O_re_search_en_func(word):
     oxxx_jaモジュールのoxxx_ja_func()を呼ぶ関数
     """
 
-    # o
-    if outlook_re_func().search(word): # outlook:
+    # o:
+    if outlook_re_func().search(word): # outlook
         outlook_ja_func()
     # elif yyy_re_func().search(word): # yyy
     #    yyy_ja_func()
