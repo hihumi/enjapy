@@ -43,3 +43,7 @@ def a_A_re_search_en_func(word):
         assurance_ja_func()
     else:
         print('not found...')
+
+if __name__ == '__main__':
+    word2 = 'python3'
+    a_A_re_search_en_func(word2)
