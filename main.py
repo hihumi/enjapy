@@ -25,6 +25,8 @@ from re_search_en.m_M_re_search_en import m_M_re_search_en_func
 from re_search_en.n_N_re_search_en import n_N_re_search_en_func
 # o:
 from re_search_en.o_O_re_search_en import o_O_re_search_en_func
+# p:
+from re_search_en.p_P_re_search_en import p_P_re_search_en_func
 # r:
 from re_search_en.r_R_re_search_en import r_R_re_search_en_func
 # w:
@@ -48,6 +50,8 @@ def main():
     n_N_re = re.compile(r'^n', re.I)
     # o:
     o_O_re = re.compile(r'^o', re.I)
+    # p:
+    p_P_re = re.compile(r'^p', re.I)
     # r:
     r_R_re = re.compile(r'^r', re.I)
     # w:
@@ -88,6 +92,8 @@ def main():
                 n_N_re_search_en_func(word_strip)
             elif o_O_re.search(word_strip): # o
                 o_O_re_search_en_func(word_strip)
+            elif p_P_re.search(word_strip): # p
+                p_P_re_search_en_func(word_strip)
             elif r_R_re.search(word_strip): # r
                 r_R_re_search_en_func(word_strip)
             elif w_W_re.search(word_strip): # w
