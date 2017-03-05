@@ -16,6 +16,8 @@ from re_en.a_re import a_re_func
 from re_en.assure_re import assure_re_func
 # assurance:
 from re_en.assurance_re import assurance_re_func
+# attitude:
+from re_en.attitude_re import attitude_re_func
 
 # a: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
@@ -26,6 +28,8 @@ from print_ja.a_ja import a_ja_func
 from print_ja.assure_ja import assure_ja_func
 # assurance:
 from print_ja.assurance_ja import assurance_ja_func
+# attitude:
+from print_ja.attitude_ja import attitude_ja_func
 
 
 def a_A_re_search_en_func(word):
@@ -41,6 +45,8 @@ def a_A_re_search_en_func(word):
         assure_ja_func()
     elif assurance_re_func().search(word): # assurance
         assurance_ja_func()
+    elif attitude_re_func().search(word): # attitude
+        attitude_ja_func()
     else:
         print('not found...')
 
