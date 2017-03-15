@@ -24,16 +24,16 @@ from print_ja.individual_ja import individual_ja_func
 from print_ja.individuality_ja import individuality_ja_func
 
 
-def i_I_re_search_en_func(word):
+def i_I_re_search_en_func(i_I_word):
     """main.pyで入力されたwordが、
     ixxx_reモジュールのixxx_re_func()で作成した正規表現のi、またはIからはじまる英単語と合致した場合、
     ixxx_jaモジュールのixxx_ja_func()を呼ぶ関数
     """
 
     # i: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if individual_re_func().search(word): # individual
+    if individual_re_func().search(i_I_word): # individual
         individual_ja_func()
-    elif individuality_re_func().search(word): # individuality
+    elif individuality_re_func().search(i_I_word): # individuality
         individuality_ja_func()
     else:
         print('not found...')

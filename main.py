@@ -75,13 +75,13 @@ def main():
     print('>>> ', end='')
     while True:
         try:
-            word_strip = input().strip()
+            word = input().strip()
 
         except (TypeError, ValueError) as err:
             print('Error: {} おっと、エラーです。半角アルファベットで入力してください。'.format(err))
 
         else:
-            if word_strip == '0':
+            if word == '0':
                 print('See you!')
                 break
 
@@ -90,26 +90,26 @@ def main():
             # elif char_Char_re.search(word_strip): # char:
             #    char_Char_re_search_en_func(word_strip)
             #
-            if a_A_re.search(word_strip): # a
-                a_A_re_search_en_func(word_strip)
-            elif c_C_re.search(word_strip): # c
-                c_C_re_search_en_func(word_strip)
-            elif i_I_re.search(word_strip): # i
-                i_I_re_search_en_func(word_strip)
-            elif m_M_re.search(word_strip): # m
-                m_M_re_search_en_func(word_strip)
-            elif n_N_re.search(word_strip): # n
-                n_N_re_search_en_func(word_strip)
-            elif o_O_re.search(word_strip): # o
-                o_O_re_search_en_func(word_strip)
-            elif p_P_re.search(word_strip): # p
-                p_P_re_search_en_func(word_strip)
-            elif r_R_re.search(word_strip): # r
-                r_R_re_search_en_func(word_strip)
-            elif s_S_re.search(word_strip): # s
-                s_S_re_search_en_func(word_strip)
-            elif w_W_re.search(word_strip): # w
-                w_W_re_search_en_func(word_strip)
+            if a_A_re.search(word): # a
+                a_A_re_search_en_func(word)
+            elif c_C_re.search(word): # c
+                c_C_re_search_en_func(word)
+            elif i_I_re.search(word): # i
+                i_I_re_search_en_func(word)
+            elif m_M_re.search(word): # m
+                m_M_re_search_en_func(word)
+            elif n_N_re.search(word): # n
+                n_N_re_search_en_func(word)
+            elif o_O_re.search(word): # o
+                o_O_re_search_en_func(word)
+            elif p_P_re.search(word): # p
+                p_P_re_search_en_func(word)
+            elif r_R_re.search(word): # r
+                r_R_re_search_en_func(word)
+            elif s_S_re.search(word): # s
+                s_S_re_search_en_func(word)
+            elif w_W_re.search(word): # w
+                w_W_re_search_en_func(word)
             else:
                 print('not found...')
 

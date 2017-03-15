@@ -32,20 +32,20 @@ from print_ja.assurance_ja import assurance_ja_func
 from print_ja.attitude_ja import attitude_ja_func
 
 
-def a_A_re_search_en_func(word):
+def a_A_re_search_en_func(a_A_word):
     """main.pyで入力されたwordが、
     axxx_reモジュールのaxxx_re_func()で作成した正規表現のa、またはAからはじまる英単語と合致した場合、
     axxx_jaモジュールのaxxx_ja_func()を呼ぶ関数
     """
 
     # a: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if a_re_func().search(word): # a
+    if a_re_func().search(a_A_word): # a
         a_ja_func()
-    elif assure_re_func().search(word): # assure
+    elif assure_re_func().search(a_A_word): # assure
         assure_ja_func()
-    elif assurance_re_func().search(word): # assurance
+    elif assurance_re_func().search(a_A_word): # assurance
         assurance_ja_func()
-    elif attitude_re_func().search(word): # attitude
+    elif attitude_re_func().search(a_A_word): # attitude
         attitude_ja_func()
     else:
         print('not found...')

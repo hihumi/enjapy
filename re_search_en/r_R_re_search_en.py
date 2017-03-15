@@ -27,18 +27,18 @@ from print_ja.respectable_ja import respectable_ja_func
 from print_ja.respectful_ja import respectful_ja_func
 
 
-def r_R_re_search_en_func(word):
+def r_R_re_search_en_func(r_R_word):
     """main.pyで入力されたwordが、
     rxxx_reモジュールのrxxx_re_func()で作成した正規表現のr、またはRからはじまる英単語と合致した場合、
     rxxx_jaモジュールのrxxx_ja_func()を呼ぶ関数
     """
 
     # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if respect_re_func().search(word): # respect
+    if respect_re_func().search(r_R_word): # respect
         respect_ja_func()
-    elif respectable_re_func().search(word): # respectable
+    elif respectable_re_func().search(r_R_word): # respectable
         respectable_ja_func()
-    elif respectful_re_func().search(word): # respectful
+    elif respectful_re_func().search(r_R_word): # respectful
         respectful_ja_func()
     else:
         print('not found...')

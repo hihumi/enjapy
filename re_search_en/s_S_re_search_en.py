@@ -20,14 +20,14 @@ from re_en.service_re import service_re_func
 from print_ja.service_ja import service_ja_func
 
 
-def s_S_re_search_en_func(word):
+def s_S_re_search_en_func(s_S_word):
     """main.pyで入力されたwordが、
     sxxx_reモジュールのsxxx_re_func()で作成した正規表現のs、またはsからはじまる英単語と合致した場合、
     sxxx_jaモジュールのsxxx_ja_func()を呼ぶ関数
     """
 
     # s: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if service_re_func().search(word): # service
+    if service_re_func().search(s_S_word): # service
         service_ja_func()
     #elif yyy_re_func().search(word): # yyy
     #    yyy_ja_func()

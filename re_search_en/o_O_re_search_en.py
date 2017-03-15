@@ -28,18 +28,18 @@ from print_ja.order_ja import order_ja_func
 from print_ja.outlook_ja import outlook_ja_func
 
 
-def o_O_re_search_en_func(word):
+def o_O_re_search_en_func(o_O_word):
     """main.pyで入力されたwordが、
     oxxx_reモジュールのoxxx_re_func()で作成した正規表現のo、またはOからはじまる英単語と合致した場合、
     oxxx_jaモジュールのoxxx_ja_func()を呼ぶ関数
     """
 
     # o: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if office_re_func().search(word): # office
+    if office_re_func().search(o_O_word): # office
         office_ja_func()
-    elif order_re_func().search(word):
+    elif order_re_func().search(o_O_word):
         order_ja_func()
-    elif outlook_re_func().search(word): # outlook
+    elif outlook_re_func().search(o_O_word): # outlook
         outlook_ja_func()
     # elif yyy_re_func().search(word): # yyy
     #    yyy_ja_func()

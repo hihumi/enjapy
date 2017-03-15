@@ -25,16 +25,16 @@ from print_ja.call_ja import call_ja_func
 from print_ja.company_ja import company_ja_func
 
 
-def c_C_re_search_en_func(word):
+def c_C_re_search_en_func(c_C_word):
     """main.pyで入力されたwordが、
     cxxx_reモジュールのcxxx_re_func()で作成した正規表現のc、またはcからはじまる英単語と合致した場合、
     cxxx_jaモジュールのcxxx_ja_func()を呼ぶ関数
     """
 
     # c: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if call_re_func().search(word): # call
+    if call_re_func().search(c_C_word): # call
         call_ja_func()
-    elif company_re_func().search(word): # company
+    elif company_re_func().search(c_C_word): # company
         company_ja_func()
     else:
         print('not found...')

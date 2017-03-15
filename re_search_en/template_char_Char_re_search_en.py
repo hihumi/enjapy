@@ -20,16 +20,16 @@ from re_en.xxx_re import xxx_re_func
 from print_ja.xxx_ja import xxx_ja_func
 
 
-def char_Char_re_search_en_func(word):
+def char_Char_re_search_en_func(char_Char_word):
     """main.pyで入力されたwordが、
     charxxx_reモジュールのcharxxx_re_func()で作成した正規表現のchar、またはCharからはじまる英単語と合致した場合、
     charxxx_jaモジュールのcharxxx_ja_func()を呼ぶ関数
     """
 
     # char: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if xxx_re_func().search(word): # xxx
+    if xxx_re_func().search(char_Char_word): # xxx
         xxx_ja_func()
-    elif yyy_re_func().search(word): # yyy
+    elif yyy_re_func().search(char_Char_word): # yyy
         yyy_ja_func()
     #elif :
     else:
