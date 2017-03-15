@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-"""全英単語リスト
+"""All English words
 """
 
 
@@ -12,9 +12,14 @@ __status__ = 'product under development'
 
 
 def all_en_words():
-    """a:
+    """All English words:
+a:
 assure
 assurance
+
+c:
+call
+company
 
 i:
 individual
@@ -27,7 +32,11 @@ n:
 negative:
 
 o:
+office
 outlook
+
+p:
+positive
 
 r:
 respect
@@ -35,6 +44,7 @@ respectable
 respectful
 
 w:
+want
 will
 willpower
 """
@@ -44,6 +54,10 @@ willpower
 assure
 assurance
 
+c:
+call
+company
+
 i:
 individual
 individuality
@@ -55,7 +69,11 @@ n:
 negative:
 
 o:
+office
 outlook
+
+p:
+positive
 
 r:
 respect
@@ -63,6 +81,7 @@ respectable
 respectful
 
 w:
+want
 will
 willpower
 """
