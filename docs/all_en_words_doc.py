@@ -13,6 +13,9 @@ __status__ = 'product under development'
 
 def all_en_words():
     """All English words:
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z:
+
 a:
 assure
 assurance
@@ -33,6 +36,7 @@ negative:
 
 o:
 office
+order
 outlook
 
 p:
@@ -53,7 +57,11 @@ willpower
 """
 
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
-    all_en = """a:
+    all_en = """All English words:
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z:
+
+a:
 assure
 assurance
 
@@ -73,6 +81,7 @@ negative:
 
 o:
 office
+order
 outlook
 
 p:

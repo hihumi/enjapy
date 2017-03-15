@@ -38,7 +38,7 @@ from re_search_en.w_W_re_search_en import w_W_re_search_en_func
 
 
 def main():
-    """ユーザからの入力を担う関数。
+    """ユーザからの入力を担う関数
     """
 
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
