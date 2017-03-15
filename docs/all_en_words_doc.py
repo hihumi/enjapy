@@ -52,6 +52,7 @@ service
 
 w:
 want
+way
 will
 willpower
 """
@@ -97,6 +98,7 @@ service
 
 w:
 want
+way
 will
 willpower
 """

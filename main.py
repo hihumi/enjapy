@@ -96,7 +96,7 @@ def main():
                 c_C_re_search_en_func(word_strip)
             elif i_I_re.search(word_strip): # i
                 i_I_re_search_en_func(word_strip)
-            elif m_M_re.search(word_strip):
+            elif m_M_re.search(word_strip): # m
                 m_M_re_search_en_func(word_strip)
             elif n_N_re.search(word_strip): # n
                 n_N_re_search_en_func(word_strip)
