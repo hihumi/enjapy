@@ -43,6 +43,9 @@ respect
 respectable
 respectful
 
+s:
+service
+
 w:
 want
 will
@@ -79,6 +82,9 @@ r:
 respect
 respectable
 respectful
+
+s:
+service
 
 w:
 want

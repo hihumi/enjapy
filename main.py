@@ -31,6 +31,8 @@ from re_search_en.o_O_re_search_en import o_O_re_search_en_func
 from re_search_en.p_P_re_search_en import p_P_re_search_en_func
 # r:
 from re_search_en.r_R_re_search_en import r_R_re_search_en_func
+# s:
+from re_search_en.s_S_re_search_en import s_S_re_search_en_func
 # w:
 from re_search_en.w_W_re_search_en import w_W_re_search_en_func
 
@@ -58,6 +60,8 @@ def main():
     p_P_re = re.compile(r'^p', re.I)
     # r:
     r_R_re = re.compile(r'^r', re.I)
+    # s:
+    s_S_re = re.compile(r'^s', re.I)
     # w:
     w_W_re = re.compile(r'^w', re.I)
 
@@ -102,6 +106,8 @@ def main():
                 p_P_re_search_en_func(word_strip)
             elif r_R_re.search(word_strip): # r
                 r_R_re_search_en_func(word_strip)
+            elif s_S_re.search(word_strip): # s
+                s_S_re_search_en_func(word_strip)
             elif w_W_re.search(word_strip): # w
                 w_W_re_search_en_func(word_strip)
             else:
