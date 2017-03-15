@@ -7,13 +7,19 @@ oxxx_jaモジュールのoxxx_ja_func()を呼ぶ
 """
 
 
-# o
+# o: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from re_en.oxxx_re import oxxx_re_func
+# office:
+from re_en.office_re import office_re_func
 # outlook:
 from re_en.outlook_re import outlook_re_func
 
+# o: a b c d e f g h i j k l m n o p q r s t u v w x y z
+
 # from print_ja.oxxx_ja import oxxx_ja_func
+# office:
+from print_ja.office_ja import office_ja_func
 # outlook:
 from print_ja.outlook_ja import outlook_ja_func
 
@@ -24,11 +30,12 @@ def o_O_re_search_en_func(word):
     oxxx_jaモジュールのoxxx_ja_func()を呼ぶ関数
     """
 
-    # o:
-    if outlook_re_func().search(word): # outlook
+    # o: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    if office_re_func().search(word):
+        office_ja_func()
+    elif outlook_re_func().search(word): # outlook
         outlook_ja_func()
     # elif yyy_re_func().search(word): # yyy
     #    yyy_ja_func()
-    #elif :
     else:
         print('not found...')
