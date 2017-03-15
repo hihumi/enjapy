@@ -34,7 +34,7 @@ def w_W_re_search_en_func(word):
     wxxx_jaモジュールのwxxx_ja_func()を呼ぶ関数
     """
 
-    # w:
+    # w: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if want_re_func().search(word): # want
         want_ja_func()
     elif will_re_func().search(word): # will

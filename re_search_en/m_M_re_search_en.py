@@ -26,7 +26,7 @@ def m_M_re_search_en_func(word):
     mxxx_jaモジュールのmxxx_ja_func()を呼ぶ関数
     """
 
-    # m:
+    # m: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if maintain_re_func().search(word): # maintain
         maintain_ja_func()
     # elif yyy_re_func().search(word): # yyy

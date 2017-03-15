@@ -31,7 +31,7 @@ def o_O_re_search_en_func(word):
     """
 
     # o: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if office_re_func().search(word):
+    if office_re_func().search(word): # office
         office_ja_func()
     elif outlook_re_func().search(word): # outlook
         outlook_ja_func()

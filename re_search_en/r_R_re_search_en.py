@@ -33,7 +33,7 @@ def r_R_re_search_en_func(word):
     rxxx_jaモジュールのrxxx_ja_func()を呼ぶ関数
     """
 
-    # r
+    # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if respect_re_func().search(word): # respect
         respect_ja_func()
     elif respectable_re_func().search(word): # respectable

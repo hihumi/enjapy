@@ -24,11 +24,10 @@ def n_N_re_search_en_func(word):
     nxxx_jaモジュールのnxxx_ja_func()を呼ぶ関数
     """
 
-    # n:
+    # n: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if negative_re_func().search(word): # negative
         negative_ja_func()
     # elif yyy_re_func().search(word): # yyy
     #    yyy_ja_func()
-    #elif :
     else:
         print('not found...')

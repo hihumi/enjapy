@@ -30,7 +30,7 @@ def i_I_re_search_en_func(word):
     ixxx_jaモジュールのixxx_ja_func()を呼ぶ関数
     """
 
-    # i:
+    # i: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if individual_re_func().search(word): # individual
         individual_ja_func()
     elif individuality_re_func().search(word): # individuality
