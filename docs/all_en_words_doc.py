@@ -49,6 +49,7 @@ respectful
 
 s:
 service
+store
 
 w:
 want
@@ -95,6 +96,7 @@ respectful
 
 s:
 service
+store
 
 w:
 want
