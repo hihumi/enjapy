@@ -17,6 +17,8 @@ import re
 # from re_en.char_Char_re_search_en import char_Char_re_search_en_func
 # a:
 from re_search_en.a_A_re_search_en import a_A_re_search_en_func
+# b:
+from re_search_en.b_B_re_search_en import b_B_re_search_en_func
 # c: c_C_re_search_en_func
 from re_search_en.c_C_re_search_en import c_C_re_search_en_func
 # i:
@@ -46,6 +48,8 @@ def main():
     # char_Char_re = re.compile(r'^char', re.I)
     # a:
     a_A_re = re.compile(r'^a', re.I)
+    # b:
+    b_B_re = re.compile(r'^b', re.I)
     # c:
     c_C_re = re.compile(r'^c', re.I)
     # i:
@@ -92,6 +96,8 @@ def main():
             #
             if a_A_re.search(word): # a
                 a_A_re_search_en_func(word)
+            elif b_B_re.search(word): # b
+                b_B_re_search_en_func(word)
             elif c_C_re.search(word): # c
                 c_C_re_search_en_func(word)
             elif i_I_re.search(word): # i
