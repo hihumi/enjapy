@@ -35,7 +35,7 @@ m:
 maintain
 
 n:
-negative:
+negative
 
 o:
 office
@@ -85,7 +85,7 @@ m:
 maintain
 
 n:
-negative:
+negative
 
 o:
 office
