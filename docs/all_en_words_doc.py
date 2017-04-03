@@ -31,6 +31,9 @@ i:
 individual
 individuality
 
+j:
+job
+
 m:
 maintain
 
@@ -82,6 +85,9 @@ company
 i:
 individual
 individuality
+
+j:
+job
 
 m:
 maintain

@@ -10,7 +10,9 @@ main.py
 
 import re
 
+
 #from re_en.re_search_en import re_search_en_func
+
 
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
@@ -23,6 +25,8 @@ from re_search_en.b_B_re_search_en import b_B_re_search_en_func
 from re_search_en.c_C_re_search_en import c_C_re_search_en_func
 # i:
 from re_search_en.i_I_re_search_en import i_I_re_search_en_func
+# j:
+from re_search_en.j_J_re_search_en import j_J_re_search_en_func
 # m:
 from re_search_en.m_M_re_search_en import m_M_re_search_en_func
 # n:
@@ -43,6 +47,7 @@ def main():
     """ユーザからの入力を担う関数
     """
 
+
     # a b c d e f g h i j k l m n o p q r s t u v w x y z
     #
     # char_Char_re = re.compile(r'^char', re.I)
@@ -54,6 +59,8 @@ def main():
     c_C_re = re.compile(r'^c', re.I)
     # i:
     i_I_re = re.compile(r'^i', re.I)
+    # j:
+    j_J_re = re.compile(r'^j', re.I)
     # m:
     m_M_re = re.compile(r'^m', re.I)
     # n:
@@ -102,6 +109,8 @@ def main():
                 c_C_re_search_en_func(word)
             elif i_I_re.search(word): # i
                 i_I_re_search_en_func(word)
+            elif j_J_re.search(word): # j
+                j_J_re_search_en_func(word)
             elif m_M_re.search(word): # m
                 m_M_re_search_en_func(word)
             elif n_N_re.search(word): # n
