@@ -91,7 +91,7 @@ def main():
 
             # a b c d e f g h i j k l m n o p q r s t u v w x y z
             #
-            # elif char_Char_re.search(word_strip): # char:
+            # if-elif char_Char_re.search(word_strip): # char:
             #    char_Char_re_search_en_func(word_strip)
             #
             if a_A_re.search(word): # a

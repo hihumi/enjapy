@@ -8,7 +8,9 @@ rxxx_jaモジュールのrxxx_ja_func()を呼ぶ
 
 # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
-# from re_en.r_re import r_re_func
+# from re_en.rxxx_re import rxxx_re_func
+# report:
+from re_en.report_re import report_re_func
 # respect:
 from re_en.respect_re import respect_re_func
 # respectable:
@@ -18,7 +20,9 @@ from re_en.respectful_re import respectful_re_func
 
 # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
-# from print_ja.r_ja import r_ja_func
+# from print_ja.rxxx_ja import rxxx_ja_func
+# report:
+from print_ja.report_ja import report_ja_func
 # respect:
 from print_ja.respect_ja import respect_ja_func
 # respectable:
@@ -34,7 +38,9 @@ def r_R_re_search_en_func(r_R_word):
     """
 
     # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if respect_re_func().search(r_R_word): # respect
+    if report_re_func().search(r_R_word):
+        report_ja_func()
+    elif respect_re_func().search(r_R_word): # respect
         respect_ja_func()
     elif respectable_re_func().search(r_R_word): # respectable
         respectable_ja_func()
