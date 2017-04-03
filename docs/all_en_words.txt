@@ -1,4 +1,3 @@
-$ sort all_en_words.txt # UNIX Command
 assure
 assurance
 business
@@ -21,3 +20,4 @@ want
 way
 will
 willpower
+pay

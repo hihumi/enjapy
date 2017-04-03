@@ -43,6 +43,7 @@ order
 outlook
 
 p:
+pay
 positive
 
 r:
@@ -93,6 +94,7 @@ order
 outlook
 
 p:
+pay
 positive
 
 r:
