@@ -4,6 +4,7 @@
 """main.pyで入力されたwordが、
 bxxx_reモジュールのbxxx_re_func()で作成した正規表現のb、またはBからはじまる英単語と合致した場合、
 bxxx_jaモジュールのbxxx_ja_func()を呼ぶ
+ただし、b-listまたはB-list(すべて大文字小文字は問わない)と入力された場合、b_B_listモジュールのb_B_list_func()を呼ぶ
 """
 
 
@@ -15,6 +16,7 @@ from re_en.business_re import business_re_func
 
 # b-list:
 from re_en.b_B_list_re import b_B_list_re_func
+
 
 # b: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #

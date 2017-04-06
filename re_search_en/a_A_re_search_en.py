@@ -4,6 +4,7 @@
 """main.pyで入力されたwordが、
 axxx_reモジュールのaxxx_re_func()で作成した正規表現のa、またはAからはじまる英単語と合致した場合、
 axxx_jaモジュールのaxxx_ja_func()を呼ぶ
+ただし、a-listまたはA-list(すべて大文字小文字は問わない)と入力された場合、a_A_listモジュールのa_A_list_func()を呼ぶ
 """
 
 
@@ -21,6 +22,7 @@ from re_en.attitude_re import attitude_re_func
 
 # a-list:
 from re_en.a_A_list_re import a_A_list_re_func
+
 
 # a: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
