@@ -13,7 +13,7 @@ def char_Char_list_func():
     (テスト対象の英単語)
     """
 
-    char_Char_en_words = sorted(['assure', 'assurance'])
+    char_Char_en_words = sorted([''])
 
     [print(i) for i in char_Char_en_words]
 
