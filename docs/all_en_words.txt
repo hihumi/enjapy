@@ -24,3 +24,4 @@ pay
 report
 job
 base
+price

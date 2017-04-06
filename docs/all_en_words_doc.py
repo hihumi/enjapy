@@ -49,6 +49,7 @@ outlook
 p:
 pay
 positive
+price
 
 r:
 report
@@ -105,6 +106,7 @@ outlook
 p:
 pay
 positive
+price
 
 r:
 report
