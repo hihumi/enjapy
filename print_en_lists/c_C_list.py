@@ -14,6 +14,7 @@ def c_C_list_func():
     company
     """
 
+    # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     c_C_en_words = sorted(['call', 'company'])
 
     [print(i) for i in c_C_en_words]

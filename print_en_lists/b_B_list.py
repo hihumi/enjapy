@@ -13,7 +13,8 @@ def b_B_list_func():
     business
     """
 
-    b_B_en_words = sorted(['business'])
+    # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
+    b_B_en_words = sorted(['business', 'base'])
 
     [print(i) for i in b_B_en_words]
 

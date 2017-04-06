@@ -14,6 +14,7 @@ def a_A_list_func():
     assure
     """
 
+    # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     a_A_en_words = sorted(['assure', 'assurance'])
 
     [print(i) for i in a_A_en_words]
