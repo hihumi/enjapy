@@ -11,17 +11,17 @@ def r_R_list_func():
     doctest:
     >>> r_R_list_func()
     r-list:
-    rate
-    respect
-    respectable
-    respectful
+        rate
+        respect
+        respectable
+        respectful
     """
 
     print('r-list:')
 
     r_R_en_words = sorted(['respect', 'respectable', 'respectful', 'rate'])
 
-    [print(i) for i in r_R_en_words]
+    [print('    {}'.format(i)) for i in r_R_en_words]
 
 if __name__ == '__main__':
     import doctest

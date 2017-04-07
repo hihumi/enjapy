@@ -11,9 +11,9 @@ def c_C_list_func():
     doctest:
     >>> c_C_list_func()
     c-list:
-    call
-    check
-    company
+        call
+        check
+        company
     """
 
     print('c-list:')
@@ -21,7 +21,7 @@ def c_C_list_func():
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     c_C_en_words = sorted(['call', 'company', 'check'])
 
-    [print(i) for i in c_C_en_words]
+    [print('    {}'.format(i)) for i in c_C_en_words]
 
 if __name__ == '__main__':
     import doctest

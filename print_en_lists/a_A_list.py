@@ -11,8 +11,8 @@ def a_A_list_func():
     doctest:
     >>> a_A_list_func()
     a-list:
-    assurance
-    assure
+        assurance
+        assure
     """
 
     print('a-list:')
@@ -20,7 +20,7 @@ def a_A_list_func():
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     a_A_en_words = sorted(['assure', 'assurance'])
 
-    [print(i) for i in a_A_en_words]
+    [print('    {}'.format(i)) for i in a_A_en_words]
 
 if __name__ == '__main__':
     import doctest

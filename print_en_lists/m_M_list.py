@@ -11,8 +11,8 @@ def m_M_list_func():
     doctest:
     >>> m_M_list_func()
     m-list:
-    maintain
-    market
+        maintain
+        market
     """
 
     print('m-list:')
@@ -20,7 +20,7 @@ def m_M_list_func():
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     m_M_en_words = sorted(['maintain', 'market'])
 
-    [print(i) for i in m_M_en_words]
+    [print('    {}'.format(i)) for i in m_M_en_words]
 
 if __name__ == '__main__':
     import doctest

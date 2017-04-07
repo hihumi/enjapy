@@ -11,11 +11,11 @@ def p_P_list_func():
     doctest:
     >>> p_P_list_func()
     p-list:
-    part
-    pay
-    positive
-    price
-    problem
+        part
+        pay
+        positive
+        price
+        problem
     """
 
     print('p-list:')
@@ -23,7 +23,7 @@ def p_P_list_func():
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     p_P_en_words = sorted(['pay', 'positive', 'price', 'problem', 'part'])
 
-    [print(i) for i in p_P_en_words]
+    [print('    {}'.format(i)) for i in p_P_en_words]
 
 if __name__ == '__main__':
     import doctest

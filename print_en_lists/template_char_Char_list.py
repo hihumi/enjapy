@@ -10,7 +10,8 @@ def char_Char_list_func():
 
     doctest:
     >>> char_Char_list_func()
-    (テスト対象の英単語)
+    char-list:
+        (テスト対象の英単語) 4つインデント
     """
 
     print('char-list:')
@@ -18,7 +19,7 @@ def char_Char_list_func():
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     char_Char_en_words = sorted([''])
 
-    [print(i) for i in char_Char_en_words]
+    [print('    {}'.format(i)) for i in char_Char_en_words]
 
 if __name__ == '__main__':
     import doctest

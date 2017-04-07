@@ -11,8 +11,8 @@ def b_B_list_func():
     doctest:
     >>> b_B_list_func()
     b-list:
-    base
-    business
+        base
+        business
     """
 
     print('b-list:')
@@ -20,7 +20,7 @@ def b_B_list_func():
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     b_B_en_words = sorted(['business', 'base'])
 
-    [print(i) for i in b_B_en_words]
+    [print('    {}'.format(i)) for i in b_B_en_words]
 
 if __name__ == '__main__':
     import doctest

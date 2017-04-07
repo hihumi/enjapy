@@ -11,8 +11,8 @@ def i_I_list_func():
     doctest:
     >>> i_I_list_func()
     i-list:
-    individual
-    individuality
+        individual
+        individuality
     """
 
     print('i-list:')
@@ -20,7 +20,7 @@ def i_I_list_func():
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     i_I_en_words = sorted(['individual', 'individuality'])
 
-    [print('    ', i) for i in i_I_en_words]
+    [print('    {}'.format(i)) for i in i_I_en_words]
 
 if __name__ == '__main__':
     import doctest
