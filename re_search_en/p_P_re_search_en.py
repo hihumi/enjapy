@@ -17,6 +17,9 @@ from re_en.pay_re import pay_re_func
 from re_en.positive_re import positive_re_func
 # price:
 from re_en.price_re import price_re_func
+# problem
+from re_en.problem_re import problem_re_func
+
 
 # p-list:
 from re_en.p_P_list_re import p_P_list_re_func
@@ -31,6 +34,9 @@ from print_ja.pay_ja import pay_ja_func
 from print_ja.positive_ja import positive_ja_func
 # price:
 from print_ja.price_ja import price_ja_func
+# problem
+from print_ja.problem_ja import problem_ja_func
+
 
 
 from print_en_lists.p_P_list import p_P_list_func
@@ -48,8 +54,10 @@ def p_P_re_search_en_func(p_P_word):
         pay_ja_func()
     elif positive_re_func().search(p_P_word): # positive
         positive_ja_func()
-    elif price_re_func().search(p_P_word):
+    elif price_re_func().search(p_P_word): # price
         price_ja_func()
+    elif problem_re_func().search(p_P_word): # problem
+        problem_ja_func()
     elif p_P_list_re_func().search(p_P_word): # p-list
         p_P_list_func()
     else:

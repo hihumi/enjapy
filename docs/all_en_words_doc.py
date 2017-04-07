@@ -50,6 +50,7 @@ p:
 pay
 positive
 price
+problem
 
 r:
 report
@@ -107,6 +108,7 @@ p:
 pay
 positive
 price
+problem
 
 r:
 report
