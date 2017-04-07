@@ -26,3 +26,4 @@ job
 base
 price
 problem
+rate

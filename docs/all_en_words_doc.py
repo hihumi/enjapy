@@ -53,6 +53,7 @@ price
 problem
 
 r:
+rate
 report
 respect
 respectable
@@ -111,6 +112,7 @@ price
 problem
 
 r:
+rate
 report
 respect
 respectable

@@ -16,6 +16,7 @@ pay
 positive
 price
 problem
+rate
 report
 respect
 respectable
