@@ -10,11 +10,14 @@ def p_P_list_func():
 
     doctest:
     >>> p_P_list_func()
+    p-list:
     pay
     positive
     price
     problem
     """
+
+    print('p-list:')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     p_P_en_words = sorted(['pay', 'positive', 'price', 'problem'])

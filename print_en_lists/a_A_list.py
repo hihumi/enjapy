@@ -10,9 +10,12 @@ def a_A_list_func():
 
     doctest:
     >>> a_A_list_func()
+    a-list:
     assurance
     assure
     """
+
+    print('a-list:')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     a_A_en_words = sorted(['assure', 'assurance'])
