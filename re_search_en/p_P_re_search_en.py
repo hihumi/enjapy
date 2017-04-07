@@ -11,6 +11,8 @@ pxxx_jaモジュールのpxxx_ja_func()を呼ぶ
 # p: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from re_en.pxxx_re import pxxx_re_func
+# part:
+from re_en.part_re import part_re_func
 # pay:
 from re_en.pay_re import pay_re_func
 # positive:
@@ -28,6 +30,8 @@ from re_en.p_P_list_re import p_P_list_re_func
 # p: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from print_ja.pxxx_ja import pxxx_ja_func
+# part:
+from print_ja.part_ja import part_ja_func
 # pay:
 from print_ja.pay_ja import pay_ja_func
 # positive:
@@ -50,7 +54,9 @@ def p_P_re_search_en_func(p_P_word):
     """
 
     # p: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if pay_re_func().search(p_P_word):
+    if part_re_func().search(p_P_word): # part
+        part_ja_func()
+    elif pay_re_func().search(p_P_word): # pay
         pay_ja_func()
     elif positive_re_func().search(p_P_word): # positive
         positive_ja_func()
