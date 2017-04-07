@@ -37,6 +37,8 @@ from print_ja.report_ja import report_ja_func
 from print_ja.respect_ja import respect_ja_func
 # respectable:
 from print_ja.respectable_ja import respectable_ja_func
+# respectful:
+from print_ja.respectful_ja import respectful_ja_func
 
 
 # r-list:
