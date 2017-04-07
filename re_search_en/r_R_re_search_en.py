@@ -4,6 +4,7 @@
 """main.pyで入力されたwordが、
 rxxx_reモジュールのrxxx_re_func()で作成した正規表現のr、またはRからはじまる英単語と合致した場合、
 rxxx_jaモジュールのrxxx_ja_func()を呼ぶ
+ただし、r-listまたはR-list(すべて大文字小文字は問わない)と入力された場合、r_R_listモジュールのr_R_list_func()を呼ぶ
 """
 
 
@@ -46,12 +47,13 @@ def r_R_re_search_en_func(r_R_word):
     """main.pyで入力されたwordが、
     rxxx_reモジュールのrxxx_re_func()で作成した正規表現のr、またはRからはじまる英単語と合致した場合、
     rxxx_jaモジュールのrxxx_ja_func()を呼ぶ関数
+    ただし、最後のelifは、r_R_listモジュールのr_R_list_func()を呼ぶ
     """
 
     # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if rate_re_func().search(r_R_word):
+    if rate_re_func().search(r_R_word): # rate
         rate_ja_func()
-    elif report_re_func().search(r_R_word):
+    elif report_re_func().search(r_R_word): # report
         report_ja_func()
     elif respect_re_func().search(r_R_word): # respect
         respect_ja_func()
