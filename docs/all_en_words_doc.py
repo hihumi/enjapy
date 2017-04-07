@@ -38,6 +38,7 @@ job
 
 m:
 maintain
+market
 
 n:
 negative
@@ -98,6 +99,7 @@ job
 
 m:
 maintain
+market
 
 n:
 negative

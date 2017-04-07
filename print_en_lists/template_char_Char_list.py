@@ -13,6 +13,9 @@ def char_Char_list_func():
     (テスト対象の英単語)
     """
 
+    print('char-list:')
+
+    # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     char_Char_en_words = sorted([''])
 
     [print(i) for i in char_Char_en_words]
