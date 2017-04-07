@@ -27,3 +27,4 @@ base
 price
 problem
 rate
+check
