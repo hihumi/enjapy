@@ -19,7 +19,7 @@ def r_R_list_func():
 
     print('r-list:')
 
-    r_R_en_words = sorted(['respect', 'respectable', 'respectful', 'rate'])
+    r_R_en_words = sorted(['respect', 'respectable', 'respectful', 'report', 'rate'])
 
     [print('    {}'.format(i)) for i in r_R_en_words]
 
