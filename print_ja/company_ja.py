@@ -11,12 +11,12 @@ def company_ja_func():
     doctest:
     >>> company_ja_func()
     company:
-    [名]: [加算]: 会社 [不加算]: 同席, 同行 [加算]: 仲間
+        [名]: [加算, 不加算]: (1) 会社 (2) 同席, 同行 (3) 仲間
     """
 
     print('company:')
 
-    company_ja_words = """[名]: [加算]: 会社 [不加算]: 同席, 同行 [加算]: 仲間"""
+    company_ja_words = """    [名]: [加算, 不加算]: (1) 会社 (2) 同席, 同行 (3) 仲間"""
 
     print(company_ja_words)
 

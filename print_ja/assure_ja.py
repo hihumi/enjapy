@@ -11,12 +11,12 @@ def assure_ja_func():
     doctest:
     >>> assure_ja_func()
     assure:
-    [動]: (1) ...を確実にする (2) ...を保証する
+        [動]: (1) ...を確実にする (2) ...を保証する
     """
 
     print('assure:')
 
-    assure_ja_words = """[動]: (1) ...を確実にする (2) ...を保証する"""
+    assure_ja_words = """    [動]: (1) ...を確実にする (2) ...を保証する"""
 
     print(assure_ja_words)
 

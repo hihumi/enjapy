@@ -11,12 +11,12 @@ def attitude_ja_func():
     doctest:
     >>> attitude_ja_func()
     attitude:
-    [名]: [加算, 不加算]: (1) 態度 (2) 姿勢
+        [名]: [加算, 不加算]: (1) 態度 (2) 姿勢
     """
 
     print('attitude:')
 
-    attitude_ja_words = """[名]: [加算, 不加算]: (1) 態度 (2) 姿勢"""
+    attitude_ja_words = """    [名]: [加算, 不加算]: (1) 態度 (2) 姿勢"""
 
     print(attitude_ja_words)
 
