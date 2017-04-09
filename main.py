@@ -127,8 +127,10 @@ def main():
                 w_W_re_search_en_func(word)
             else:
                 print('not found...')
-
+            
+            print()
             print('>>> ', end='')
+    print()
 
 if __name__ == '__main__':
     main()

@@ -11,12 +11,12 @@ def willpower_ja_func():
     doctest:
     >>> willpower_ja_func()
     willpower:
-    [名]: [不加算]: 意志力
+        [名]: [不加算]: 意志力
     """
 
     print('willpower:')
 
-    willpower_ja_words = """[名]: [不加算]: 意志力"""
+    willpower_ja_words = """    [名]: [不加算]: 意志力"""
 
     print(willpower_ja_words)
 
