@@ -11,12 +11,12 @@ def outlook_ja_func():
     doctest:
     >>> outlook_ja_func()
     outlook:
-    [名]: [加算]: (1) 見方 (2) 見通し
+        [名]: [加算]: (1) 見方 (2) 見通し
     """
 
     print('outlook:')
 
-    outlook_ja_words = """[名]: [加算]: (1) 見方 (2) 見通し"""
+    outlook_ja_words = """    [名]: [加算]: (1) 見方 (2) 見通し"""
 
     print(outlook_ja_words)
 
