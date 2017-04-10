@@ -11,12 +11,12 @@ def assurance_ja_func():
     doctest:
     >>> assurance_ja_func()
     assurance:
-        [名]: [加算, 不加算]: (1) 確約 (2) 保証
+        [名] [C] (1) 確約 (2) 保証 [U] (1) 確信 (2) 自信
     """
 
     print('assurance:')
 
-    assurance_ja_words = """    [名]: [加算, 不加算]: (1) 確約 (2) 保証"""
+    assurance_ja_words = """    [名] [C] (1) 確約 (2) 保証 [U] (1) 確信 (2) 自信"""
 
     print(assurance_ja_words)
 
