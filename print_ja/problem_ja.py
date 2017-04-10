@@ -11,12 +11,12 @@ def problem_ja_func():
     doctest:
     >>> problem_ja_func()
     problem:
-        [名]: [加算]: 問題, 課題, 厄介な物事
+        [名] [C] 問題, 課題, 厄介な物事
     """
 
     print('problem:')
 
-    problem_ja_words = """    [名]: [加算]: 問題, 課題, 厄介な物事"""
+    problem_ja_words = """    [名] [C] 問題, 課題, 厄介な物事"""
 
     print(problem_ja_words)
 
