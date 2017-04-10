@@ -11,12 +11,12 @@ def will_ja_func():
     doctest:
     >>> will_ja_func()
     will:
-        [名]: [加算, 不加算]: (1) 意志 (2) 遺書
+        [名] [C,U] (1) 意志 (2) 遺書
     """
 
     print('will:')
 
-    will_ja_words = """    [名]: [加算, 不加算]: (1) 意志 (2) 遺書"""
+    will_ja_words = """    [名] [C,U] (1) 意志 (2) 遺書"""
 
     print(will_ja_words)
 
