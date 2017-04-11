@@ -85,7 +85,7 @@ def main():
     print('Welcome!')
     print()
     print('英単語の意味を日本語で出力します。')
-    print('以下に、調べたい英単語を入力してください。')
+    print('以下に、調べたい英単語を1語ずつ入力してください。')
     print('(終了する場合は、0を入力してください。)')
     print('>>> ', end='')
     while True:
