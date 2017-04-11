@@ -10,9 +10,13 @@ axxx_jaモジュールのaxxx_ja_func()を呼ぶ
 
 # a: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
+# axxx:
 # from re_en.axxx_re import axxx_re_func
+#
 # a:
 from re_en.a_re import a_re_func
+# area:
+from re_en.area_re import area_re_func
 # assure:
 from re_en.assure_re import assure_re_func
 # assurance:
@@ -26,9 +30,12 @@ from re_en.a_A_list_re import a_A_list_re_func
 
 # a: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
+# axxx:
 # from print_ja.axxx_ja import axxx_ja_func
 # a:
 from print_ja.a_ja import a_ja_func
+# area:
+from print_ja.area_ja import area_ja_func
 # assure:
 from print_ja.assure_ja import assure_ja_func
 # assurance:
@@ -51,6 +58,8 @@ def a_A_re_search_en_func(a_A_word):
     # a: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if a_re_func().search(a_A_word): # a
         a_ja_func()
+    elif area_re_func().search(a_A_word): # area
+        area_ja_func()
     elif assure_re_func().search(a_A_word): # assure
         assure_ja_func()
     elif assurance_re_func().search(a_A_word): # assurance

@@ -35,3 +35,4 @@ sale
 change
 plan
 room
+area
