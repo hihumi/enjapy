@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-"""r_R_listの正規表現をコンパイルする
+"""r-listの正規表現をコンパイルする
 """
 
 
@@ -15,10 +15,10 @@ def r_R_list_re_func():
 
     doctest:
     >>> print(r_R_list_re_func())
-    re.compile('r-list$', re.IGNORECASE)
+    re.compile('^r-list$', re.IGNORECASE)
     """
 
-    r_R_list_re = re.compile(r'r-list$', re.I)
+    r_R_list_re = re.compile(r'^r-list$', re.I)
     return r_R_list_re
 
 if __name__ == '__main__':

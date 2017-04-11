@@ -15,10 +15,10 @@ def store_re_func():
 
     doctest:
     >>> print(store_re_func())
-    re.compile('store$', re.IGNORECASE)
+    re.compile('^store$', re.IGNORECASE)
     """
 
-    store_re = re.compile(r'store$', re.I)
+    store_re = re.compile(r'^store$', re.I)
     return store_re
 
 if __name__ == '__main__':

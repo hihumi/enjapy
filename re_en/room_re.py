@@ -15,10 +15,10 @@ def room_re_func():
 
     doctest:
     >>> print(room_re_func())
-    re.compile('room$', re.IGNORECASE)
+    re.compile('^room$', re.IGNORECASE)
     """
 
-    room_re = re.compile(r'room$', re.I)
+    room_re = re.compile(r'^room$', re.I)
     return room_re
 
 if __name__ == '__main__':

@@ -15,10 +15,10 @@ def will_re_func():
 
     doctest:
     >>> print(will_re_func())
-    re.compile('will$', re.IGNORECASE)
+    re.compile('^will$', re.IGNORECASE)
     """
 
-    will_re = re.compile(r'will$', re.I)
+    will_re = re.compile(r'^will$', re.I)
     return will_re
 
 if __name__ == '__main__':

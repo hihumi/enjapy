@@ -15,10 +15,10 @@ def report_re_func():
 
     doctest:
     >>> print(report_re_func())
-    re.compile('report$', re.IGNORECASE)
+    re.compile('^report$', re.IGNORECASE)
     """
 
-    report_re = re.compile(r'report$', re.I)
+    report_re = re.compile(r'^report$', re.I)
     return report_re
 
 if __name__ == '__main__':

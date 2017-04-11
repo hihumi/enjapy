@@ -15,10 +15,10 @@ def willpower_re_func():
 
     doctest:
     >>> print(willpower_re_func())
-    re.compile('willpower$', re.IGNORECASE)
+    re.compile('^willpower$', re.IGNORECASE)
     """
 
-    willpower_re = re.compile(r'willpower$', re.I)
+    willpower_re = re.compile(r'^willpower$', re.I)
     return willpower_re
 
 if __name__ == '__main__':

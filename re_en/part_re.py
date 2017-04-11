@@ -15,10 +15,10 @@ def part_re_func():
 
     doctest:
     >>> print(part_re_func())
-    re.compile('part$', re.IGNORECASE)
+    re.compile('^part$', re.IGNORECASE)
     """
 
-    part_re = re.compile(r'part$', re.I)
+    part_re = re.compile(r'^part$', re.I)
     return part_re
 
 if __name__ == '__main__':

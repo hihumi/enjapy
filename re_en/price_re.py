@@ -15,10 +15,10 @@ def price_re_func():
 
     doctest:
     >>> print(price_re_func())
-    re.compile('price$', re.IGNORECASE)
+    re.compile('^price$', re.IGNORECASE)
     """
 
-    price_re = re.compile(r'price$', re.I)
+    price_re = re.compile(r'^price$', re.I)
     return price_re
 
 if __name__ == '__main__':

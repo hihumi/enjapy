@@ -15,10 +15,10 @@ def way_re_func():
 
     doctest:
     >>> print(way_re_func())
-    re.compile('way$', re.IGNORECASE)
+    re.compile('^way$', re.IGNORECASE)
     """
 
-    way_re = re.compile(r'way$', re.I)
+    way_re = re.compile(r'^way$', re.I)
     return way_re
 
 if __name__ == '__main__':

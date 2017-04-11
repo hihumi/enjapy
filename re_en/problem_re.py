@@ -15,10 +15,10 @@ def problem_re_func():
 
     doctest:
     >>> print(problem_re_func())
-    re.compile('problem$', re.IGNORECASE)
+    re.compile('^problem$', re.IGNORECASE)
     """
 
-    problem_re = re.compile(r'problem$', re.I)
+    problem_re = re.compile(r'^problem$', re.I)
     return problem_re
 
 if __name__ == '__main__':

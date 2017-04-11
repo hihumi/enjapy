@@ -15,10 +15,10 @@ def rate_re_func():
 
     doctest:
     >>> print(rate_re_func())
-    re.compile('rate$', re.IGNORECASE)
+    re.compile('^rate$', re.IGNORECASE)
     """
 
-    rate_re = re.compile(r'rate$', re.I)
+    rate_re = re.compile(r'^rate$', re.I)
     return rate_re
 
 if __name__ == '__main__':

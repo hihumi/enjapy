@@ -15,10 +15,10 @@ def sale_re_func():
 
     doctest:
     >>> print(sale_re_func())
-    re.compile('sale$', re.IGNORECASE)
+    re.compile('^sale$', re.IGNORECASE)
     """
 
-    sale_re = re.compile(r'sale$', re.I)
+    sale_re = re.compile(r'^sale$', re.I)
     return sale_re
 
 if __name__ == '__main__':

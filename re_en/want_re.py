@@ -15,10 +15,10 @@ def want_re_func():
 
     doctest:
     >>> print(want_re_func())
-    re.compile('want$', re.IGNORECASE)
+    re.compile('^want$', re.IGNORECASE)
     """
 
-    want_re = re.compile(r'want$', re.I)
+    want_re = re.compile(r'^want$', re.I)
     return want_re
 
 if __name__ == '__main__':

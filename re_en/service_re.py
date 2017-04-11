@@ -15,10 +15,10 @@ def service_re_func():
 
     doctest:
     >>> print(service_re_func())
-    re.compile('service$', re.IGNORECASE)
+    re.compile('^service$', re.IGNORECASE)
     """
 
-    service_re = re.compile(r'service$', re.I)
+    service_re = re.compile(r'^service$', re.I)
     return service_re
 
 if __name__ == '__main__':

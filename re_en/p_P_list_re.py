@@ -15,10 +15,10 @@ def p_P_list_re_func():
 
     doctest:
     >>> print(p_P_list_re_func())
-    re.compile('p-list$', re.IGNORECASE)
+    re.compile('^p-list$', re.IGNORECASE)
     """
 
-    p_P_list_re = re.compile(r'p-list$', re.I)
+    p_P_list_re = re.compile(r'^p-list$', re.I)
     return p_P_list_re
 
 if __name__ == '__main__':

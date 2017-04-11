@@ -15,10 +15,10 @@ def w_W_list_re_func():
 
     doctest:
     >>> print(w_W_list_re_func())
-    re.compile('w-list$', re.IGNORECASE)
+    re.compile('^w-list$', re.IGNORECASE)
     """
 
-    w_W_list_re = re.compile(r'w-list$', re.I)
+    w_W_list_re = re.compile(r'^w-list$', re.I)
     return w_W_list_re
 
 if __name__ == '__main__':

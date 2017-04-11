@@ -15,10 +15,10 @@ def positive_re_func():
 
     doctest:
     >>> print(positive_re_func())
-    re.compile('positive$', re.IGNORECASE)
+    re.compile('^positive$', re.IGNORECASE)
     """
 
-    positive_re = re.compile(r'positive$', re.I)
+    positive_re = re.compile(r'^positive$', re.I)
     return positive_re
 
 if __name__ == '__main__':

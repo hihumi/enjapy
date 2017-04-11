@@ -15,10 +15,10 @@ def plan_re_func():
 
     doctest:
     >>> print(plan_re_func())
-    re.compile('plan$', re.IGNORECASE)
+    re.compile('^plan$', re.IGNORECASE)
     """
 
-    plan_re = re.compile(r'plan$', re.I)
+    plan_re = re.compile(r'^plan$', re.I)
     return plan_re
 
 if __name__ == '__main__':
