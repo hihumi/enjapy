@@ -15,10 +15,10 @@ def free_re_func():
 
     doctest:
     >>> print(free_re_func())
-    re.compile('free$', re.IGNORECASE)
+    re.compile('^free$', re.IGNORECASE)
     """
 
-    free_re = re.compile(r'free$', re.I)
+    free_re = re.compile(r'^free$', re.I)
     return free_re
 
 if __name__ == '__main__':

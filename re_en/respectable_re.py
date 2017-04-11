@@ -15,10 +15,11 @@ def respectable_re_func():
 
     doctest:
     >>> print(respectable_re_func())
-    re.compile('respectable$', re.IGNORECASE)
+    re.compile('^respectable$', re.IGNORECASE)
     """
 
-    respectable_re = re.compile(r'respectable$', re.I)
+    #respectable_re = re.compile(r'^respectable$', re.I)
+    respectable_re = re.compile(r'^respectable$', re.I)
     return respectable_re
 
 if __name__ == '__main__':

@@ -15,10 +15,10 @@ def change_re_func():
 
     doctest:
     >>> print(change_re_func())
-    re.compile('change$', re.IGNORECASE)
+    re.compile('^change$', re.IGNORECASE)
     """
 
-    change_re = re.compile(r'change$', re.I)
+    change_re = re.compile(r'^change$', re.I)
     return change_re
 
 if __name__ == '__main__':

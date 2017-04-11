@@ -15,10 +15,10 @@ def business_re_func():
 
     doctest:
     >>> print(business_re_func())
-    re.compile('business$', re.IGNORECASE)
+    re.compile('^business$', re.IGNORECASE)
     """
 
-    business_re = re.compile(r'business$', re.I)
+    business_re = re.compile(r'^business$', re.I)
     return business_re
 
 if __name__ == '__main__':

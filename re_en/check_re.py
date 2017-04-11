@@ -15,10 +15,10 @@ def check_re_func():
 
     doctest:
     >>> print(check_re_func())
-    re.compile('check$', re.IGNORECASE)
+    re.compile('^check$', re.IGNORECASE)
     """
 
-    check_re = re.compile(r'check$', re.I)
+    check_re = re.compile(r'^check$', re.I)
     return check_re
 
 if __name__ == '__main__':

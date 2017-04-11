@@ -15,10 +15,10 @@ def c_C_list_re_func():
 
     doctest:
     >>> print(c_C_list_re_func())
-    re.compile('c-list$', re.IGNORECASE)
+    re.compile('^c-list$', re.IGNORECASE)
     """
 
-    c_C_list_re = re.compile(r'c-list$', re.I)
+    c_C_list_re = re.compile(r'^c-list$', re.I)
     return c_C_list_re
 
 if __name__ == '__main__':

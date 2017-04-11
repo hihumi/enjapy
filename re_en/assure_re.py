@@ -15,10 +15,10 @@ def assure_re_func():
 
     doctest:
     >>> print(assure_re_func())
-    re.compile('assure$', re.IGNORECASE)
+    re.compile('^assure$', re.IGNORECASE)
     """
 
-    assure_re = re.compile(r'assure$', re.I)
+    assure_re = re.compile(r'^assure$', re.I)
     return assure_re
 
 if __name__ == '__main__':

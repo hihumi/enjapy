@@ -15,10 +15,10 @@ def attitude_re_func():
 
     doctest:
     >>> print(attitude_re_func())
-    re.compile('attitude$', re.IGNORECASE)
+    re.compile('^attitude$', re.IGNORECASE)
     """
 
-    attitude_re = re.compile(r'attitude$', re.I)
+    attitude_re = re.compile(r'^attitude$', re.I)
     return attitude_re
 
 if __name__ == '__main__':

@@ -15,10 +15,10 @@ def assurance_re_func():
 
     doctest:
     >>> print(assurance_re_func())
-    re.compile('assurance$', re.IGNORECASE)
+    re.compile('^assurance$', re.IGNORECASE)
     """
 
-    assurance_re = re.compile(r'assurance$', re.I)
+    assurance_re = re.compile(r'^assurance$', re.I)
     return assurance_re
 
 if __name__ == '__main__':

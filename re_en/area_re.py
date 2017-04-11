@@ -15,10 +15,10 @@ def area_re_func():
 
     doctest:
     >>> print(area_re_func())
-    re.compile('area$', re.IGNORECASE)
+    re.compile('^area$', re.IGNORECASE)
     """
 
-    area_re = re.compile(r'area$', re.I)
+    area_re = re.compile(r'^area$', re.I)
     return area_re
 
 if __name__ == '__main__':

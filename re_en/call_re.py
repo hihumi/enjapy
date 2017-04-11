@@ -15,10 +15,10 @@ def call_re_func():
 
     doctest:
     >>> print(call_re_func())
-    re.compile('call$', re.IGNORECASE)
+    re.compile('^call$', re.IGNORECASE)
     """
 
-    call_re = re.compile(r'call$', re.I)
+    call_re = re.compile(r'^call$', re.I)
     return call_re
 
 if __name__ == '__main__':

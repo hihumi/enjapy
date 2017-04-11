@@ -15,10 +15,10 @@ def f_F_list_re_func():
 
     doctest:
     >>> print(f_F_list_re_func())
-    re.compile('f-list$', re.IGNORECASE)
+    re.compile('^f-list$', re.IGNORECASE)
     """
 
-    f_F_list_re = re.compile(r'f-list$', re.I)
+    f_F_list_re = re.compile(r'^f-list$', re.I)
     return f_F_list_re
 
 if __name__ == '__main__':

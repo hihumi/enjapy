@@ -15,10 +15,10 @@ def pay_re_func():
 
     doctest:
     >>> print(pay_re_func())
-    re.compile('pay$', re.IGNORECASE)
+    re.compile('^pay$', re.IGNORECASE)
     """
 
-    pay_re = re.compile(r'pay$', re.I)
+    pay_re = re.compile(r'^pay$', re.I)
     return pay_re
 
 if __name__ == '__main__':

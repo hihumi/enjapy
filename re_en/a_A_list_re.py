@@ -15,10 +15,10 @@ def a_A_list_re_func():
 
     doctest:
     >>> print(a_A_list_re_func())
-    re.compile('a-list$', re.IGNORECASE)
+    re.compile('^a-list$', re.IGNORECASE)
     """
 
-    a_A_list_re = re.compile(r'a-list$', re.I)
+    a_A_list_re = re.compile(r'^a-list$', re.I)
     return a_A_list_re
 
 if __name__ == '__main__':

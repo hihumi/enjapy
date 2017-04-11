@@ -15,10 +15,10 @@ def base_re_func():
 
     doctest:
     >>> print(base_re_func())
-    re.compile('base$', re.IGNORECASE)
+    re.compile('^base$', re.IGNORECASE)
     """
 
-    base_re = re.compile(r'base$', re.I)
+    base_re = re.compile(r'^base$', re.I)
     return base_re
 
 if __name__ == '__main__':

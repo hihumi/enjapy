@@ -15,10 +15,10 @@ def respect_re_func():
 
     doctest:
     >>> print(respect_re_func())
-    re.compile('respect$', re.IGNORECASE)
+    re.compile('^respect$', re.IGNORECASE)
     """
 
-    respect_re = re.compile(r'respect$', re.I)
+    respect_re = re.compile(r'^respect$', re.I)
     return respect_re
 
 if __name__ == '__main__':
