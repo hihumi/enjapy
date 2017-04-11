@@ -27,6 +27,7 @@ business
 
 c:
 call
+change
 check
 company
 
@@ -64,6 +65,7 @@ respectable
 respectful
 
 s:
+sale
 service
 store
 
@@ -90,6 +92,7 @@ business
 
 c:
 call
+change
 check
 company
 
@@ -127,6 +130,7 @@ respectable
 respectful
 
 s:
+sale
 service
 store
 

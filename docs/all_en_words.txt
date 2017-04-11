@@ -31,3 +31,5 @@ rate
 check
 market
 part
+sale
+change

@@ -11,6 +11,7 @@ def s_S_list_func():
     doctest:
     >>> s_S_list_func()
     s-list:
+        sale
         service
         store
     """
@@ -18,7 +19,7 @@ def s_S_list_func():
     print('s-list:')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
-    s_S_en_words = sorted(['service', 'store'])
+    s_S_en_words = sorted(['service', 'store', 'sale'])
 
     [print('    {}'.format(i)) for i in s_S_en_words]
 

@@ -13,6 +13,8 @@ cxxx_jaモジュールのcxxx_ja_func()を呼ぶ
 # from re_en.cxxx_re import cxxx_re_func
 # call:
 from re_en.call_re import call_re_func
+# change:
+from re_en.change_re import change_re_func
 # check:
 from re_en.check_re import check_re_func
 # company:
@@ -27,9 +29,10 @@ from re_en.c_C_list_re import c_C_list_re_func
 # from print_ja.cxxx_ja import cxxx_ja_func
 # call:
 from print_ja.call_ja import call_ja_func
+# change:
+from print_ja.change_ja import change_ja_func
 # check:
 from print_ja.check_ja import check_ja_func
-
 # company:
 from print_ja.company_ja import company_ja_func
 
@@ -48,6 +51,8 @@ def c_C_re_search_en_func(c_C_word):
     # c: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if call_re_func().search(c_C_word): # call
         call_ja_func()
+    elif change_re_func().search(c_C_word): # change
+        change_ja_func()
     elif check_re_func().search(c_C_word): # check
         check_ja_func()
     elif company_re_func().search(c_C_word): # company

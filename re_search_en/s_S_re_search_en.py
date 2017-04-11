@@ -11,6 +11,8 @@ sxxx_jaモジュールのsxxx_ja_func()を呼ぶ
 # s: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from re_en.sxxx_re import sxxx_re_func
+# sale:
+from re_en.sale_re import sale_re_func
 # service:
 from re_en.service_re import service_re_func
 # store:
@@ -23,6 +25,8 @@ from re_en.s_S_list_re import s_S_list_re_func
 # s: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from print_ja.sxxx_ja import sxxx_ja_func
+# sale:
+from print_ja.sale_ja import sale_ja_func
 # service:
 from print_ja.service_ja import service_ja_func
 # store:
@@ -41,7 +45,9 @@ def s_S_re_search_en_func(s_S_word):
     """
 
     # s: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if service_re_func().search(s_S_word): # service
+    if sale_re_func().search(s_S_word): # sale
+        sale_ja_func()
+    elif service_re_func().search(s_S_word): # service
         service_ja_func()
     elif store_re_func().search(s_S_word): # store
         store_ja_func()

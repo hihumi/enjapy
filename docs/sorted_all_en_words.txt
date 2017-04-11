@@ -4,6 +4,7 @@ attitude
 base
 business
 call
+change
 check
 company
 individual
@@ -25,6 +26,7 @@ report
 respect
 respectable
 respectful
+sale
 service
 store
 want
