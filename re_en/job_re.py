@@ -15,10 +15,10 @@ def job_re_func():
 
     doctest:
     >>> print(job_re_func())
-    re.compile('job$', re.IGNORECASE)
+    re.compile('^job$', re.IGNORECASE)
     """
 
-    job_re = re.compile(r'job$', re.I)
+    job_re = re.compile(r'^job$', re.I)
     return job_re
 
 if __name__ == '__main__':

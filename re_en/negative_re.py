@@ -15,10 +15,10 @@ def negative_re_func():
 
     doctest:
     >>> print(negative_re_func())
-    re.compile('negative$', re.IGNORECASE)
+    re.compile('^negative$', re.IGNORECASE)
     """
 
-    negative_re = re.compile(r'negative$', re.I)
+    negative_re = re.compile(r'^negative$', re.I)
     return negative_re
 
 if __name__ == '__main__':

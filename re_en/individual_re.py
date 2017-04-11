@@ -15,10 +15,10 @@ def individual_re_func():
 
     doctest:
     >>> print(individual_re_func())
-    re.compile('individual$', re.IGNORECASE)
+    re.compile('^individual$', re.IGNORECASE)
     """
 
-    individual_re = re.compile(r'individual$', re.I)
+    individual_re = re.compile(r'^individual$', re.I)
     return individual_re
 
 if __name__ == '__main__':

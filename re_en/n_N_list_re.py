@@ -15,10 +15,10 @@ def n_N_list_re_func():
 
     doctest:
     >>> print(n_N_list_re_func())
-    re.compile('n-list$', re.IGNORECASE)
+    re.compile('^n-list$', re.IGNORECASE)
     """
 
-    n_N_list_re = re.compile(r'n-list$', re.I)
+    n_N_list_re = re.compile(r'^n-list$', re.I)
     return n_N_list_re
 
 if __name__ == '__main__':

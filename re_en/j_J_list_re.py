@@ -15,10 +15,10 @@ def j_J_list_re_func():
 
     doctest:
     >>> print(j_J_list_re_func())
-    re.compile('j-list$', re.IGNORECASE)
+    re.compile('^j-list$', re.IGNORECASE)
     """
 
-    j_J_list_re = re.compile(r'j-list$', re.I)
+    j_J_list_re = re.compile(r'^j-list$', re.I)
     return j_J_list_re
 
 if __name__ == '__main__':

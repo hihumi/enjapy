@@ -15,10 +15,10 @@ def market_re_func():
 
     doctest:
     >>> print(market_re_func())
-    re.compile('market$', re.IGNORECASE)
+    re.compile('^market$', re.IGNORECASE)
     """
 
-    market_re = re.compile(r'market$', re.I)
+    market_re = re.compile(r'^market$', re.I)
     return market_re
 
 if __name__ == '__main__':

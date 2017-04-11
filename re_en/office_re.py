@@ -15,10 +15,10 @@ def office_re_func():
 
     doctest:
     >>> print(office_re_func())
-    re.compile('office$', re.IGNORECASE)
+    re.compile('^office$', re.IGNORECASE)
     """
 
-    office_re = re.compile(r'office$', re.I)
+    office_re = re.compile(r'^office$', re.I)
     return office_re
 
 if __name__ == '__main__':

@@ -15,10 +15,10 @@ def o_O_list_re_func():
 
     doctest:
     >>> print(o_O_list_re_func())
-    re.compile('o-list$', re.IGNORECASE)
+    re.compile('^o-list$', re.IGNORECASE)
     """
 
-    o_O_list_re = re.compile(r'o-list$', re.I)
+    o_O_list_re = re.compile(r'^o-list$', re.I)
     return o_O_list_re
 
 if __name__ == '__main__':

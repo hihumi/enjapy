@@ -15,10 +15,10 @@ def outlook_re_func():
 
     doctest:
     >>> print(outlook_re_func())
-    re.compile('outlook$', re.IGNORECASE)
+    re.compile('^outlook$', re.IGNORECASE)
     """
 
-    outlook_re = re.compile(r'outlook$', re.I)
+    outlook_re = re.compile(r'^outlook$', re.I)
     return outlook_re
 
 if __name__ == '__main__':

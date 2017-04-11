@@ -15,10 +15,10 @@ def order_re_func():
 
     doctest:
     >>> print(order_re_func())
-    re.compile('order$', re.IGNORECASE)
+    re.compile('^order$', re.IGNORECASE)
     """
 
-    order_re = re.compile(r'order$', re.I)
+    order_re = re.compile(r'^order$', re.I)
     return order_re
 
 if __name__ == '__main__':

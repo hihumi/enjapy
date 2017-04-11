@@ -15,10 +15,10 @@ def maintain_re_func():
 
     doctest:
     >>> print(maintain_re_func())
-    re.compile('maintain$', re.IGNORECASE)
+    re.compile('^maintain$', re.IGNORECASE)
     """
 
-    maintain_re = re.compile(r'maintain$', re.I)
+    maintain_re = re.compile(r'^maintain$', re.I)
     return maintain_re
 
 if __name__ == '__main__':
