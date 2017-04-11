@@ -10,7 +10,9 @@ rxxx_jaモジュールのrxxx_ja_func()を呼ぶ
 
 # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
+# rxxx:
 # from re_en.rxxx_re import rxxx_re_func
+#
 # rate:
 from re_en.rate_re import rate_re_func
 # report:
@@ -21,6 +23,8 @@ from re_en.respect_re import respect_re_func
 from re_en.respectable_re import respectable_re_func
 # respectful:
 from re_en.respectful_re import respectful_re_func
+# room:
+from re_en.room_re import room_re_func
 
 # r-list:
 from re_en.r_R_list_re import r_R_list_re_func
@@ -28,6 +32,7 @@ from re_en.r_R_list_re import r_R_list_re_func
 
 # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
+# rxxx:
 # from print_ja.rxxx_ja import rxxx_ja_func
 # rate:
 from print_ja.rate_ja import rate_ja_func
@@ -39,6 +44,8 @@ from print_ja.respect_ja import respect_ja_func
 from print_ja.respectable_ja import respectable_ja_func
 # respectful:
 from print_ja.respectful_ja import respectful_ja_func
+# room:
+from print_ja.room_ja import room_ja_func
 
 
 # r-list:
@@ -63,6 +70,10 @@ def r_R_re_search_en_func(r_R_word):
         respectable_ja_func()
     elif respectful_re_func().search(r_R_word): # respectful
         respectful_ja_func()
+    elif room_re_func().search(r_R_word): # room
+        room_ja_func()
+    # elif rxxx_re_func().search(r_R_word): # rxxx
+    #     rxxx_ja_func()
     elif r_R_list_re_func().search(r_R_word): # r-list
         r_R_list_func()
     else:

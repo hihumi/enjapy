@@ -12,14 +12,16 @@ def r_R_list_func():
     >>> r_R_list_func()
     r-list:
         rate
+        report
         respect
         respectable
         respectful
+        room
     """
 
     print('r-list:')
 
-    r_R_en_words = sorted(['respect', 'respectable', 'respectful', 'report', 'rate'])
+    r_R_en_words = sorted(['respect', 'respectable', 'respectful', 'report', 'rate', 'room'])
 
     [print('    {}'.format(i)) for i in r_R_en_words]
 

@@ -34,3 +34,4 @@ part
 sale
 change
 plan
+room
