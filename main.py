@@ -21,8 +21,10 @@ import re
 from re_search_en.a_A_re_search_en import a_A_re_search_en_func
 # b:
 from re_search_en.b_B_re_search_en import b_B_re_search_en_func
-# c: c_C_re_search_en_func
+# c:
 from re_search_en.c_C_re_search_en import c_C_re_search_en_func
+# f:
+from re_search_en.f_F_re_search_en import f_F_re_search_en_func
 # i:
 from re_search_en.i_I_re_search_en import i_I_re_search_en_func
 # j:
@@ -57,6 +59,8 @@ def main():
     b_B_re = re.compile(r'^b', re.I)
     # c:
     c_C_re = re.compile(r'^c', re.I)
+    # f:
+    f_F_re = re.compile(r'^f', re.I)
     # i:
     i_I_re = re.compile(r'^i', re.I)
     # j:
@@ -107,6 +111,8 @@ def main():
                 b_B_re_search_en_func(word)
             elif c_C_re.search(word): # c
                 c_C_re_search_en_func(word)
+            elif f_F_re.search(word): # f
+                f_F_re_search_en_func(word)
             elif i_I_re.search(word): # i
                 i_I_re_search_en_func(word)
             elif j_J_re.search(word): # j
@@ -127,7 +133,7 @@ def main():
                 w_W_re_search_en_func(word)
             else:
                 print('not found...')
-            
+
             print()
             print('>>> ', end='')
     print()

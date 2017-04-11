@@ -8,6 +8,7 @@ call
 change
 check
 company
+free
 individual
 individuality
 job

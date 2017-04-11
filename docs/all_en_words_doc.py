@@ -32,6 +32,9 @@ change
 check
 company
 
+f:
+free
+
 i:
 individual
 individuality
@@ -99,6 +102,9 @@ call
 change
 check
 company
+
+f:
+free
 
 i:
 individual

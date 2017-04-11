@@ -36,3 +36,4 @@ change
 plan
 room
 area
+free

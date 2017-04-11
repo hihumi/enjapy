@@ -21,11 +21,15 @@ from re_en.xxx_re import xxx_re_func
 from print_ja.xxx_ja import xxx_ja_func
 
 
+# a-list:
+# from re_en.char_Char_list_re import char_Char_list_re_func
+
+
 def char_Char_re_search_en_func(char_Char_word):
     """main.pyで入力されたwordが、
     charxxx_reモジュールのcharxxx_re_func()で作成した正規表現のchar、またはCharからはじまる英単語と合致した場合、
     charxxx_jaモジュールのcharxxx_ja_func()を呼ぶ関数
-    ただし、最後のelifは、char_Cher_listモジュールのchar_Char_list_func()を呼ぶ
+    ただし、最後のelifは、char_Char_listモジュールのchar_Char_list_func()を呼ぶ
     """
 
     # char: a b c d e f g h i j k l m n o p q r s t u v w x y z
