@@ -11,10 +11,12 @@ def j_J_list_func():
     doctest:
     >>> j_J_list_func()
     j-list:
+    <BLANKLINE>
         job
     """
 
     print('j-list:')
+    print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     j_J_en_words = sorted(['job'])

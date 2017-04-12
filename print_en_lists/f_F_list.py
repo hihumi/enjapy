@@ -11,10 +11,12 @@ def f_F_list_func():
     doctest:
     >>> f_F_list_func()
     f-list:
+    <BLANKLINE>
         free
     """
 
     print('f-list:')
+    print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     f_F_en_words = sorted(['free'])

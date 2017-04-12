@@ -11,10 +11,12 @@ def char_Char_list_func():
     doctest:
     >>> char_Char_list_func()
     char-list:
-        (テスト対象の英単語) 4つインデント
+    <BLANKLINE>
+        (テスト対象の英単語) スペース4つインデント
     """
 
     print('char-list:')
+    print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     char_Char_en_words = sorted([''])

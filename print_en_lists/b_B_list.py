@@ -11,11 +11,13 @@ def b_B_list_func():
     doctest:
     >>> b_B_list_func()
     b-list:
+    <BLANKLINE>
         base
         business
     """
 
     print('b-list:')
+    print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     b_B_en_words = sorted(['business', 'base'])

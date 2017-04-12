@@ -11,11 +11,15 @@ def a_A_list_func():
     doctest:
     >>> a_A_list_func()
     a-list:
+    <BLANKLINE>
+        area
         assurance
         assure
+        attitude
     """
 
     print('a-list:')
+    print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     a_A_en_words = sorted(['assure', 'assurance', 'attitude', 'area'])

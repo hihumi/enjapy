@@ -11,6 +11,7 @@ def r_R_list_func():
     doctest:
     >>> r_R_list_func()
     r-list:
+    <BLANKLINE>
         rate
         report
         respect
@@ -20,6 +21,7 @@ def r_R_list_func():
     """
 
     print('r-list:')
+    print()
 
     r_R_en_words = sorted(['respect', 'respectable', 'respectful', 'report', 'rate', 'room'])
 

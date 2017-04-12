@@ -11,10 +11,12 @@ def n_N_list_func():
     doctest:
     >>> n_N_list_func()
     n-list:
+    <BLANKLINE>
         negative
     """
 
     print('n-list:')
+    print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     n_N_en_words = sorted(['negative'])

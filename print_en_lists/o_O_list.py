@@ -11,12 +11,14 @@ def o_O_list_func():
     doctest:
     >>> o_O_list_func()
     o-list:
+    <BLANKLINE>
         office
         order
         outlook
     """
 
     print('o-list:')
+    print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     o_O_en_words = sorted(['office', 'order', 'outlook'])

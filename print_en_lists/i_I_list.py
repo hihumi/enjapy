@@ -11,11 +11,13 @@ def i_I_list_func():
     doctest:
     >>> i_I_list_func()
     i-list:
+    <BLANKLINE>
         individual
         individuality
     """
 
     print('i-list:')
+    print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     i_I_en_words = sorted(['individual', 'individuality'])
