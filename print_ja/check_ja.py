@@ -11,6 +11,7 @@ def check_ja_func():
     doctest:
     >>> check_ja_func()
     check:
+    <BLANKLINE>
         [動] (1) ...を調べる, 確かめる (2) ...を照合する (3) (速度等)を阻止する, (感情等)を抑制する
         (備考: checkは自動詞としても使用できる)
     <BLANKLINE>
@@ -18,6 +19,7 @@ def check_ja_func():
     """
 
     print('check:')
+    print()
 
     check_ja_words = """    [動] (1) ...を調べる, 確かめる (2) ...を照合する (3) (速度等)を阻止する, (感情等)を抑制する
     (備考: checkは自動詞としても使用できる)

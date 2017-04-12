@@ -11,10 +11,12 @@ def xxx_ja_func():
     doctest:
     >>> xxx_ja_func()
     xxx:
+    <BLANKLINE>
     (test内容)
     """
 
     print('xxx:')
+    print()
 
     xxx_ja_words = """"""
 

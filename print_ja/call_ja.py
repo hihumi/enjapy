@@ -11,12 +11,14 @@ def call_ja_func():
     doctest:
     >>> call_ja_func()
     call:
+    <BLANKLINE>
         [動] (1) 呼ぶ (2) 電話を掛ける
     <BLANKLINE>
         [名] [C] (1) 呼び出し (2) 通話
     """
 
     print('call:')
+    print()
 
     call_ja_words = """    [動] (1) 呼ぶ (2) 電話を掛ける
 

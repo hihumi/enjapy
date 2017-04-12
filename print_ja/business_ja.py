@@ -11,10 +11,12 @@ def business_ja_func():
     doctest:
     >>> business_ja_func()
     business:
+    <BLANKLINE>
         [名] [C,U] (1) 商売, 事業 (2) 物事
     """
 
     print('business:')
+    print()
 
     business_ja_words = """    [名] [C,U] (1) 商売, 事業 (2) 物事"""
 

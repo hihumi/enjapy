@@ -11,6 +11,7 @@ def base_ja_func():
     doctest:
     >>> base_ja_func()
     base:
+    <BLANKLINE>
         [名] [C,U] 基部, 基礎, 土台, 底, 基地, 塁
         (備考: 基地, 塁として使用する場合, 不加算になることがある)
     <BLANKLINE>
@@ -18,6 +19,7 @@ def base_ja_func():
     """
 
     print('base:')
+    print()
 
     base_ja_words = """    [名] [C,U] 基部, 基礎, 土台, 底, 基地, 塁
     (備考: 基地, 塁として使用する場合, 不加算になることがある)
