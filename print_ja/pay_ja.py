@@ -11,12 +11,14 @@ def pay_ja_func():
     doctest:
     >>> pay_ja_func()
     pay:
+    <BLANKLINE>
         [動] (1) (金等)を支払う (2) (注意等)を払う
     <BLANKLINE>
         [名] [U] 給料, 報酬
     """
 
     print('pay:')
+    print()
 
     pay_ja_words = """    [動] (1) (金等)を支払う (2) (注意等)を払う
 

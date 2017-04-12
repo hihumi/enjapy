@@ -11,6 +11,7 @@ def price_ja_func():
     doctest:
     >>> price_ja_func()
     price:
+    <BLANKLINE>
         [名] [C,U] (1) 価格, 値段, 物価 (2) (単数形で)代償, 犠牲
         (3) (人の首に掛かる)懸賞金 (4) (競馬等で)賭け率
     <BLANKLINE>
@@ -18,6 +19,7 @@ def price_ja_func():
     """
 
     print('price:')
+    print()
 
     price_ja_words = """    [名] [C,U] (1) 価格, 値段, 物価 (2) (単数形で)代償, 犠牲
     (3) (人の首に掛かる)懸賞金 (4) (競馬等で)賭け率

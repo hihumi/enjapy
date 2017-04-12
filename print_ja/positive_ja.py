@@ -11,10 +11,12 @@ def positive_ja_func():
     doctest:
     >>> positive_ja_func()
     positive:
+    <BLANKLINE>
         [形] (1) 積極的な, 楽観的な (2) 確信, 自信のある (3) 明確な, 確実な
     """
 
     print('positive:')
+    print()
 
     positive_ja_words = """    [形] (1) 積極的な, 楽観的な (2) 確信, 自信のある (3) 明確な, 確実な"""
 

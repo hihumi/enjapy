@@ -11,10 +11,12 @@ def problem_ja_func():
     doctest:
     >>> problem_ja_func()
     problem:
+    <BLANKLINE>
         [名] [C] 問題, 課題, 厄介な物事
     """
 
     print('problem:')
+    print()
 
     problem_ja_words = """    [名] [C] 問題, 課題, 厄介な物事"""
 
