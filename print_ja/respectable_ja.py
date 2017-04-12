@@ -11,10 +11,12 @@ def respectable_ja_func():
     doctest:
     >>> respectable_ja_func()
     respectable:
+    <BLANKLINE>
         [形] (1) (世間的・社会的に)まともな (2) (量等が)かなりの
     """
 
     print('respectable:')
+    print()
 
     respectable_ja_words = """    [形] (1) (世間的・社会的に)まともな (2) (量等が)かなりの"""
 

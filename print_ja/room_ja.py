@@ -11,6 +11,7 @@ def room_ja_func():
     doctest:
     >>> room_ja_func()
     room:
+    <BLANKLINE>
         [名] [複 ~s] (1) [C] 部屋, 質 (2) [U] 空間, 場所,
         余地
         (3) [U] 可能性, 機会 (4) (複数形で)貸し室, 下宿
@@ -20,6 +21,7 @@ def room_ja_func():
     """
 
     print('room:')
+    print()
 
     room_ja_words = """    [名] [複 ~s] (1) [C] 部屋, 質 (2) [U] 空間, 場所,
     余地

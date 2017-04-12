@@ -11,12 +11,14 @@ def respect_ja_func():
     doctest:
     >>> respect_ja_func()
     respect:
+    <BLANKLINE>
         [動] (1) ...を尊重する (2) ...を尊敬する
     <BLANKLINE>
         [名] [U] 尊敬
     """
 
     print('respect:')
+    print()
 
     respect_ja_words = """    [動] (1) ...を尊重する (2) ...を尊敬する
 

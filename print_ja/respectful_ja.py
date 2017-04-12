@@ -11,10 +11,12 @@ def respectful_ja_func():
     doctest:
     >>> respectful_ja_func()
     respectful:
+    <BLANKLINE>
         [形] 敬意を示す, 表す
     """
 
     print('respectful:')
+    print()
 
     respectful_ja_words = """    [形] 敬意を示す, 表す"""
 

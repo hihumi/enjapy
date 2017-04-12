@@ -11,12 +11,14 @@ def rate_ja_func():
     doctest:
     >>> rate_ja_func()
     rate:
+    <BLANKLINE>
         [名] [C] (1) 割合, 比率 (2) 料金, 値段 (3) 速度
     <BLANKLINE>
         [動] ...を評価する
     """
 
     print('rate:')
+    print()
 
     rate_ja_words = """    [名] [C] (1) 割合, 比率 (2) 料金, 値段 (3) 速度
 
