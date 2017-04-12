@@ -11,6 +11,7 @@ def free_ja_func():
     doctest:
     >>> free_ja_func()
     free:
+    <BLANKLINE>
         [形] (1) 自由な, 自由の身の, 監禁されていない,
         釈放された, つながれていない
         (2) 自由主義の (3) ただの, 無料の, 無償の, 免除された, 無税の
@@ -24,6 +25,7 @@ def free_ja_func():
     """
 
     print('free:')
+    print()
 
     free_ja_words = """    [形] (1) 自由な, 自由の身の, 監禁されていない,
     釈放された, つながれていない

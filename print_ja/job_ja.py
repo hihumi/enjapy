@@ -11,10 +11,12 @@ def job_ja_func():
     doctest:
     >>> job_ja_func()
     job:
+    <BLANKLINE>
         [名] [C] (1) 職, 仕事, 勤め口 (2) 責務, やるべきこと, すべきこと
     """
 
     print('job:')
+    print()
 
     job_ja_words = """    [名] [C] (1) 職, 仕事, 勤め口 (2) 責務, やるべきこと, すべきこと"""
 

@@ -11,10 +11,12 @@ def individuality_ja_func():
     doctest:
     >>> individuality_ja_func()
     individuality:
+    <BLANKLINE>
         [名] [U] 個性
     """
 
     print('individuality:')
+    print()
 
     individuality_ja_words = """    [名] [U] 個性"""
 

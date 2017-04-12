@@ -11,12 +11,14 @@ def individual_ja_func():
     doctest:
     >>> individual_ja_func()
     individual:
+    <BLANKLINE>
         [名] [C] 個人
     <BLANKLINE>
         [形] (1) 個人の (2) 個々の (3) 個性的な
     """
 
     print('individual:')
+    print()
 
     individual_ja_words = """    [名] [C] 個人
 
