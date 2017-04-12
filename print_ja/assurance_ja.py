@@ -11,10 +11,12 @@ def assurance_ja_func():
     doctest:
     >>> assurance_ja_func()
     assurance:
+    <BLANKLINE>
         [名] [C] (1) 確約 (2) 保証 [U] (1) 確信 (2) 自信
     """
 
     print('assurance:')
+    print()
 
     assurance_ja_words = """    [名] [C] (1) 確約 (2) 保証 [U] (1) 確信 (2) 自信"""
 

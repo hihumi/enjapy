@@ -11,10 +11,12 @@ def assure_ja_func():
     doctest:
     >>> assure_ja_func()
     assure:
+    <BLANKLINE>
         [動] (1) ...を確実にする (2) ...を保証する
     """
 
     print('assure:')
+    print()
 
     assure_ja_words = """    [動] (1) ...を確実にする (2) ...を保証する"""
 
