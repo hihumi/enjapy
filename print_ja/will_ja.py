@@ -11,10 +11,12 @@ def will_ja_func():
     doctest:
     >>> will_ja_func()
     will:
+    <BLANKLINE>
         [名] [C,U] (1) 意志 (2) 遺書
     """
 
     print('will:')
+    print()
 
     will_ja_words = """    [名] [C,U] (1) 意志 (2) 遺書"""
 

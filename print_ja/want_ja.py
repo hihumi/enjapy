@@ -11,12 +11,14 @@ def want_ja_func():
     doctest:
     >>> want_ja_func()
     want:
+    <BLANKLINE>
         [動] (1) ...を望む (2) ...が欠けている
     <BLANKLINE>
         [名] [C,U]: 欠乏
     """
 
     print('want:')
+    print()
 
     want_ja_words = """    [動] (1) ...を望む (2) ...が欠けている
 
