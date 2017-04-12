@@ -11,12 +11,14 @@ def negative_ja_func():
     doctest:
     >>> negative_ja_func()
     negative:
+    <BLANKLINE>
         [形] (1) 悲観的な (2) 消極的な (3) 否定の (4) 陰性の
     <BLANKLINE>
         [名] [C] (1) ネガ (2) 否定
     """
 
     print('negative:')
+    print()
 
     negative_ja_words = """    [形] (1) 悲観的な (2) 消極的な (3) 否定の (4) 陰性の
 

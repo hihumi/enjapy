@@ -11,10 +11,12 @@ def office_ja_func():
     doctest:
     >>> office_ja_func()
     office:
+    <BLANKLINE>
         [名] [C,U] (1) 事務所 (2) 職場 (3) 役所 (4) 案内所
     """
 
     print('office:')
+    print()
 
     office_ja_words = """    [名] [C,U] (1) 事務所 (2) 職場 (3) 役所 (4) 案内所"""
 

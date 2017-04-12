@@ -11,12 +11,14 @@ def order_ja_func():
     doctest:
     >>> order_ja_func()
     order:
+    <BLANKLINE>
         [名] [C] (1) 注文 (2) 命令 [U] (1) 秩序 (2) 順序
     <BLANKLINE>
         [動] (1) (モノ等)を注文する (2) ...を命令する
     """
 
     print('order:')
+    print()
 
     order_ja_words = """    [名] [C] (1) 注文 (2) 命令 [U] (1) 秩序 (2) 順序
 

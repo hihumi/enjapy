@@ -11,10 +11,12 @@ def outlook_ja_func():
     doctest:
     >>> outlook_ja_func()
     outlook:
+    <BLANKLINE>
         [名] [C] (1) 見方 (2) 見通し
     """
 
     print('outlook:')
+    print()
 
     outlook_ja_words = """    [名] [C] (1) 見方 (2) 見通し"""
 
