@@ -36,6 +36,7 @@ f:
 free
 
 i:
+increase
 individual
 individuality
 
@@ -109,6 +110,7 @@ f:
 free
 
 i:
+increase
 individual
 individuality
 

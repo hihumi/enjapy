@@ -12,6 +12,7 @@ def i_I_list_func():
     >>> i_I_list_func()
     i-list:
     <BLANKLINE>
+        increase
         individual
         individuality
     """
@@ -20,7 +21,7 @@ def i_I_list_func():
     print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
-    i_I_en_words = sorted(['individual', 'individuality'])
+    i_I_en_words = sorted(['individual', 'individuality', 'increase'])
 
     [print('    {}'.format(i)) for i in i_I_en_words]
 

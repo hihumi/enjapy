@@ -10,7 +10,11 @@ ixxx_jaモジュールのixxx_ja_func()を呼ぶ
 
 # i: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
-# from re_en.i_re import i_re_func
+# ixxx:
+# from re_en.ixxx_re import ixxx_re_func
+#
+# increase:
+from re_en.increase_re import increase_re_func
 # individual:
 from re_en.individual_re import individual_re_func
 # individuality:
@@ -22,7 +26,11 @@ from re_en.i_I_list_re import i_I_list_re_func
 
 # i: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
-# from print_ja.i_ja import i_ja_func
+# ixxx:
+# from print_ja.ixxx_ja import ixxx_ja_func
+#
+# increase:
+from print_ja.increase_ja import increase_ja_func
 # individual:
 from print_ja.individual_ja import individual_ja_func
 # individuality:
@@ -41,7 +49,13 @@ def i_I_re_search_en_func(i_I_word):
     """
 
     # i: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    if individual_re_func().search(i_I_word): # individual
+    #
+    # elif ixxx_re_func().search(i_I_word): # ixxx
+    #    ixxx_ja_func()
+    #
+    if increase_re_func().search(i_I_word): # increase
+        increase_ja_func()
+    elif individual_re_func().search(i_I_word): # individual
         individual_ja_func()
     elif individuality_re_func().search(i_I_word): # individuality
         individuality_ja_func()

@@ -9,6 +9,7 @@ change
 check
 company
 free
+increase
 individual
 individuality
 job
