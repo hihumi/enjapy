@@ -11,9 +11,6 @@ main.py
 import re
 
 
-#from re_en.re_search_en import re_search_en_func
-
-
 # a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from re_en.char_Char_re_search_en import char_Char_re_search_en_func
