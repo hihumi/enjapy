@@ -75,6 +75,7 @@ s:
 sale
 service
 store
+sure
 
 w:
 want
@@ -147,6 +148,7 @@ s:
 sale
 service
 store
+sure
 
 w:
 want

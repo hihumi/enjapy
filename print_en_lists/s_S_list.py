@@ -15,13 +15,14 @@ def s_S_list_func():
         sale
         service
         store
+        sure
     """
 
     print('s-list:')
     print()
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
-    s_S_en_words = sorted(['service', 'store', 'sale'])
+    s_S_en_words = sorted(['service', 'store', 'sale', 'sure'])
 
     [print('    {}'.format(i)) for i in s_S_en_words]
 
