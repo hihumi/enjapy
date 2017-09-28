@@ -16,7 +16,7 @@ def t_T_list_func():
     """
 
     print('t-list:')
-    print()
+    print('')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     t_T_en_words = sorted(['tax'])

@@ -14,6 +14,10 @@ txxx_jaモジュールのtxxx_ja_func()を呼ぶ
 # tax:
 from re_en.tax_re import tax_re_func
 
+# t-list:
+from re_en.t_T_list_re import t_T_list_re_func
+
+
 # t: a b c d e f g h i j k l m n o p q r s t u v w x y z
 #
 # from print_ja.txxx_ja import txxx_ja_func
@@ -22,7 +26,7 @@ from print_ja.tax_ja import tax_ja_func
 
 
 # t-list:
-# from re_en.t_T_list_re import t_T_list_re_func
+from print_en_lists.t_T_list import t_T_list_func
 
 
 def t_T_re_search_en_func(t_T_word):
@@ -35,8 +39,7 @@ def t_T_re_search_en_func(t_T_word):
     # t: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if tax_re_func().search(t_T_word): # tax
         tax_ja_func()
-    # elif yyy_re_func().search(t_t_word): # yyy
-    #    yyy_ja_func()
-    #elif :
+    elif t_T_list_re_func().search(t_T_word): # t-list
+        t_T_list_func()
     else:
         print('not found...')
