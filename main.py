@@ -131,7 +131,7 @@ def main():
             else:
                 print('not found...')
 
-            print()
+            print("")
             print('>>> ', end='')
     print()
 
