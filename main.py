@@ -131,9 +131,9 @@ def main():
             else:
                 print('not found...')
 
-            print("")
+            print('')
             print('>>> ', end='')
-    print()
+    print('')
 
 if __name__ == '__main__':
     main()
