@@ -38,6 +38,8 @@ from re_search_en.p_P_re_search_en import p_P_re_search_en_func
 from re_search_en.r_R_re_search_en import r_R_re_search_en_func
 # s:
 from re_search_en.s_S_re_search_en import s_S_re_search_en_func
+# t:
+from re_search_en.t_T_re_search_en import t_T_re_search_en_func
 # w:
 from re_search_en.w_W_re_search_en import w_W_re_search_en_func
 
@@ -74,16 +76,19 @@ def main():
     r_R_re = re.compile(r'^r', re.I)
     # s:
     s_S_re = re.compile(r'^s', re.I)
+    # t:
+    t_T_re = re.compile(r'^t', re.I)
     # w:
     w_W_re = re.compile(r'^w', re.I)
 
 
     print('enjapy:')
     print('Welcome!')
-    print()
+    print('')
     print('    英単語の意味を日本語で出力します。')
     print('    以下に、調べたい英単語を1語ずつ入力してください。')
     print('    (終了する場合は、数字の0を入力してください。)')
+    print('')
     print('>>> ', end='')
     while True:
         try:
@@ -126,6 +131,8 @@ def main():
                 r_R_re_search_en_func(word)
             elif s_S_re.search(word): # s
                 s_S_re_search_en_func(word)
+            elif t_T_re.search(word): # t
+                t_T_re_search_en_func(word)
             elif w_W_re.search(word): # w
                 w_W_re_search_en_func(word)
             else:

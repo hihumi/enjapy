@@ -78,6 +78,9 @@ service
 store
 sure
 
+t:
+tax
+
 w:
 want
 way
@@ -151,6 +154,9 @@ sale
 service
 store
 sure
+
+t:
+tax
 
 w:
 want
