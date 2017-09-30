@@ -17,7 +17,7 @@ def m_M_list_func():
     """
 
     print('m-list:')
-    print()
+    print('')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     m_M_en_words = sorted(['maintain', 'market'])

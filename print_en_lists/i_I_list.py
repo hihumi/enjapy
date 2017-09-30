@@ -18,7 +18,7 @@ def i_I_list_func():
     """
 
     print('i-list:')
-    print()
+    print('')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     i_I_en_words = sorted(['individual', 'individuality', 'increase'])

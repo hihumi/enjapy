@@ -19,7 +19,7 @@ def w_W_list_func():
     """
 
     print('w-list:')
-    print()
+    print('')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     w_W_en_words = sorted(['want', 'way', 'will', 'willpower'])

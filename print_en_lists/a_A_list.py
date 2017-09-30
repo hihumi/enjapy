@@ -19,7 +19,7 @@ def a_A_list_func():
     """
 
     print('a-list:')
-    print()
+    print('')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     a_A_en_words = sorted(['assure', 'assurance', 'attitude', 'area'])

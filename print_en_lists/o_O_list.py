@@ -18,7 +18,7 @@ def o_O_list_func():
     """
 
     print('o-list:')
-    print()
+    print('')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     o_O_en_words = sorted(['office', 'order', 'outlook'])

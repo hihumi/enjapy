@@ -16,7 +16,7 @@ def n_N_list_func():
     """
 
     print('n-list:')
-    print()
+    print('')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     n_N_en_words = sorted(['negative'])

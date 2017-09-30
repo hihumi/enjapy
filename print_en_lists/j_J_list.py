@@ -16,7 +16,7 @@ def j_J_list_func():
     """
 
     print('j-list:')
-    print()
+    print('')
 
     # アルファベット順にソートされるので、リスト(配列)末尾に英単語を追加してくだけでいい
     j_J_en_words = sorted(['job'])
