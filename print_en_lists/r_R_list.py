@@ -13,6 +13,7 @@ def r_R_list_func():
     r-list:
     <BLANKLINE>
         rate
+        receive
         report
         respect
         respectable
@@ -21,9 +22,10 @@ def r_R_list_func():
     """
 
     print('r-list:')
-    print()
+    print('')
 
-    r_R_en_words = sorted(['respect', 'respectable', 'respectful', 'report', 'rate', 'room'])
+    r_R_en_words = sorted(['respect', 'respectable', 'respectful', 'report', 'rate',
+                           'room', 'receive'])
 
     [print('    {}'.format(i)) for i in r_R_en_words]
 

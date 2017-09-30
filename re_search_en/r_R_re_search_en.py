@@ -15,6 +15,8 @@ rxxx_jaモジュールのrxxx_ja_func()を呼ぶ
 #
 # rate:
 from re_en.rate_re import rate_re_func
+# receive:
+from re_en.receive_re import receive_re_func
 # report:
 from re_en.report_re import report_re_func
 # respect:
@@ -36,6 +38,8 @@ from re_en.r_R_list_re import r_R_list_re_func
 # from print_ja.rxxx_ja import rxxx_ja_func
 # rate:
 from print_ja.rate_ja import rate_ja_func
+# receive
+from print_ja.receive_ja import receive_ja_func
 # report:
 from print_ja.report_ja import report_ja_func
 # respect:
@@ -62,6 +66,8 @@ def r_R_re_search_en_func(r_R_word):
     # r: a b c d e f g h i j k l m n o p q r s t u v w x y z
     if rate_re_func().search(r_R_word): # rate
         rate_ja_func()
+    elif receive_re_func().search(r_R_word): # receive
+        receive_ja_func()
     elif report_re_func().search(r_R_word): # report
         report_ja_func()
     elif respect_re_func().search(r_R_word): # respect
@@ -72,8 +78,6 @@ def r_R_re_search_en_func(r_R_word):
         respectful_ja_func()
     elif room_re_func().search(r_R_word): # room
         room_ja_func()
-    # elif rxxx_re_func().search(r_R_word): # rxxx
-    #     rxxx_ja_func()
     elif r_R_list_re_func().search(r_R_word): # r-list
         r_R_list_func()
     else:
