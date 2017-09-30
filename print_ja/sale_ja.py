@@ -12,14 +12,14 @@ def sale_ja_func():
     >>> sale_ja_func()
     sale:
     <BLANKLINE>
-        [名] [複 ~s] (1) [U,C] 販売, 売却 (2) [U,C] [通例 ~s] 売り上げ高
+        [名] (1) [U,C] 販売, 売却 (2) [U,C] [通例 ~s] 売り上げ高
         (3) [C] 特売 (4) [C] 競売
     """
 
     print('sale:')
     print()
 
-    sale_ja_words = """    [名] [複 ~s] (1) [U,C] 販売, 売却 (2) [U,C] [通例 ~s] 売り上げ高
+    sale_ja_words = """    [名] (1) [U,C] 販売, 売却 (2) [U,C] [通例 ~s] 売り上げ高
     (3) [C] 特売 (4) [C] 競売"""
 
     print(sale_ja_words)
