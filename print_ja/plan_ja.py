@@ -22,7 +22,7 @@ def plan_ja_func():
     """
 
     print('plan:')
-    print()
+    print('')
 
     plan_ja_words = """    [名] [C] (1) (しばしば複数形で)計画, 予定, 案
     (2) (組織等の)事業計画, 活動予定

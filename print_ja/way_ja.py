@@ -16,7 +16,7 @@ def way_ja_func():
     """
 
     print('way:')
-    print()
+    print('')
 
     way_ja_words = """    [名] [C,U] (1) (...の)やり方, (...を)する方法 (2) 道 (3) 方向"""
 

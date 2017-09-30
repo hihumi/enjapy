@@ -16,7 +16,7 @@ def willpower_ja_func():
     """
 
     print('willpower:')
-    print()
+    print('')
 
     willpower_ja_words = """    [名] [U] 意志力"""
 

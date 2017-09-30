@@ -16,7 +16,7 @@ def will_ja_func():
     """
 
     print('will:')
-    print()
+    print('')
 
     will_ja_words = """    [名] [C,U] (1) 意志 (2) 遺書"""
 

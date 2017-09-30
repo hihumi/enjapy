@@ -16,7 +16,7 @@ def respectful_ja_func():
     """
 
     print('respectful:')
-    print()
+    print('')
 
     respectful_ja_words = """    [形] 敬意を示す, 表す"""
 

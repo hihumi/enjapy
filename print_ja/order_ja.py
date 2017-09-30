@@ -18,7 +18,7 @@ def order_ja_func():
     """
 
     print('order:')
-    print()
+    print('')
 
     order_ja_words = """    [名] [C] (1) 注文 (2) 命令 [U] (1) 秩序 (2) 順序
 

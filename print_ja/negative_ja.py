@@ -18,7 +18,7 @@ def negative_ja_func():
     """
 
     print('negative:')
-    print()
+    print('')
 
     negative_ja_words = """    [形] (1) 悲観的な (2) 消極的な (3) 否定の (4) 陰性の
 

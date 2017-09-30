@@ -18,7 +18,7 @@ def want_ja_func():
     """
 
     print('want:')
-    print()
+    print('')
 
     want_ja_words = """    [動] (1) ...を望む (2) ...が欠けている
 

@@ -21,7 +21,7 @@ def room_ja_func():
     """
 
     print('room:')
-    print()
+    print('')
 
     room_ja_words = """    [名] (1) [C] 部屋, 質 (2) [U] 空間, 場所,
     余地

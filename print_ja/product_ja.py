@@ -19,7 +19,7 @@ def product_ja_func():
     """
 
     print('product:')
-    print()
+    print('')
 
     product_ja_words = """    [名] [C] (1) 製品, 生産物, 産出物, 創作品
     (2) 成果, 結果, 所産

@@ -17,7 +17,7 @@ def sale_ja_func():
     """
 
     print('sale:')
-    print()
+    print('')
 
     sale_ja_words = """    [名] (1) [U,C] 販売, 売却 (2) [U,C] [通例 ~s] 売り上げ高
     (3) [C] 特売 (4) [C] 競売"""

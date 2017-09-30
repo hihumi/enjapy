@@ -18,7 +18,7 @@ def rate_ja_func():
     """
 
     print('rate:')
-    print()
+    print('')
 
     rate_ja_words = """    [名] [C] (1) 割合, 比率 (2) 料金, 値段 (3) 速度
 

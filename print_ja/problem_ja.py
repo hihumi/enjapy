@@ -16,7 +16,7 @@ def problem_ja_func():
     """
 
     print('problem:')
-    print()
+    print('')
 
     problem_ja_words = """    [名] [C] 問題, 課題, 厄介な物事"""
 

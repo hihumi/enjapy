@@ -18,7 +18,7 @@ def store_ja_func():
     """
 
     print('store:')
-    print()
+    print('')
 
     store_ja_words = """    [名] [C] (1) 店, 商店 (2) 蓄え, 備え
 

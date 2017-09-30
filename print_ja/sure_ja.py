@@ -18,7 +18,7 @@ def sure_ja_func():
     """
 
     print('sure:')
-    print()
+    print('')
 
     sure_ja_words = """    [形] (1) ...を確信している (2) きっと...する
     (3) ...するように気をつける, ...するように注意する

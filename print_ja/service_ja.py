@@ -16,7 +16,7 @@ def service_ja_func():
     """
 
     print('service:')
-    print()
+    print('')
 
     service_ja_words = """    [名] [C,U] (1) 接客, サービス (2) (公共等の)事業"""
 

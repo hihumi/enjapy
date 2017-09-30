@@ -18,7 +18,7 @@ def respect_ja_func():
     """
 
     print('respect:')
-    print()
+    print('')
 
     respect_ja_words = """    [動] (1) ...を尊重する (2) ...を尊敬する
 

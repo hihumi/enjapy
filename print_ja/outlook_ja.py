@@ -16,7 +16,7 @@ def outlook_ja_func():
     """
 
     print('outlook:')
-    print()
+    print('')
 
     outlook_ja_words = """    [名] [C] (1) 見方 (2) 見通し"""
 

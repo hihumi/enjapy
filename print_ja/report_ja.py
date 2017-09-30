@@ -18,7 +18,7 @@ def report_ja_func():
     """
 
     print('report:')
-    print()
+    print('')
 
     report_ja_words = """    [名] [C,U] (1) 報告 (2) 報道 (3) 噂, 風説
 

@@ -16,7 +16,7 @@ def respectable_ja_func():
     """
 
     print('respectable:')
-    print()
+    print('')
 
     respectable_ja_words = """    [形] (1) (世間的・社会的に)まともな (2) (量等が)かなりの"""
 
