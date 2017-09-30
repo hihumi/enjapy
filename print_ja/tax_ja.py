@@ -12,15 +12,15 @@ def tax_ja_func():
     >>> tax_ja_func()
     tax:
     <BLANKLINE>
-        [名] (複 ~・es) [C,U] 税金
-        [動] (~・es) [他] ~に課税する
+        [名] [C,U] 税金
+        [動] [他] ...に課税する
     """
 
     print('tax:')
     print('')
 
-    tax_ja_words = """    [名] (複 ~・es) [C,U] 税金
-    [動] (~・es) [他] ~に課税する"""
+    tax_ja_words = """    [名] [C,U] 税金
+    [動] [他] ...に課税する"""
 
     print(tax_ja_words)
 
