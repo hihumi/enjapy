@@ -17,7 +17,7 @@ def area_ja_func():
     """
 
     print('area:')
-    print()
+    print('')
 
     area_ja_words = """    [名] (1) [U,C] 面積, 坪数, 建坪 (2) [C] 地域, 地帯, 地方
     (3) [C] 広場, 空き地, 区域, 場所, 空間 (4) [C] 範囲, 分野, 領域"""

@@ -19,7 +19,7 @@ def increase_ja_func():
     """
 
     print('increase:')
-    print()
+    print('')
 
     increase_ja_words = """    [動] [自] 増える, 増加する, 増大する
     [他] ...を増やす, ...を強める, ...を上げる

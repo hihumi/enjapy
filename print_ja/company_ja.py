@@ -16,7 +16,7 @@ def company_ja_func():
     """
 
     print('company:')
-    print()
+    print('')
 
     company_ja_words = """    [名] [C,U] (1) 会社 (2) 同席, 同行 (3) 仲間"""
 

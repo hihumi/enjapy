@@ -21,7 +21,7 @@ def change_ja_func():
     """
 
     print('change:')
-    print()
+    print('')
 
     change_ja_words = """    [動] [他] (1) ...を変える, ...を変更する
     (2) ...を取り替える, ...を交換する (3) (お金を)両替する

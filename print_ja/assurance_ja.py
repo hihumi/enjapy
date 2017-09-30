@@ -16,7 +16,7 @@ def assurance_ja_func():
     """
 
     print('assurance:')
-    print()
+    print('')
 
     assurance_ja_words = """    [名] [C] (1) 確約 (2) 保証 [U] (1) 確信 (2) 自信"""
 

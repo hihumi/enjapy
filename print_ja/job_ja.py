@@ -16,7 +16,7 @@ def job_ja_func():
     """
 
     print('job:')
-    print()
+    print('')
 
     job_ja_words = """    [名] [C] (1) 職, 仕事, 勤め口 (2) 責務, やるべきこと, すべきこと"""
 

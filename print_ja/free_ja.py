@@ -25,7 +25,7 @@ def free_ja_func():
     """
 
     print('free:')
-    print()
+    print('')
 
     free_ja_words = """    [形] (1) 自由な, 自由の身の, 監禁されていない,
     釈放された, つながれていない

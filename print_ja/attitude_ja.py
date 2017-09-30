@@ -16,7 +16,7 @@ def attitude_ja_func():
     """
 
     print('attitude:')
-    print()
+    print('')
 
     attitude_ja_words = """    [名] [C,U] (1) 態度 (2) 姿勢"""
 

@@ -16,7 +16,7 @@ def business_ja_func():
     """
 
     print('business:')
-    print()
+    print('')
 
     business_ja_words = """    [名] [C,U] (1) 商売, 事業 (2) 物事"""
 

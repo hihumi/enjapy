@@ -16,7 +16,7 @@ def individuality_ja_func():
     """
 
     print('individuality:')
-    print()
+    print('')
 
     individuality_ja_words = """    [名] [U] 個性"""
 

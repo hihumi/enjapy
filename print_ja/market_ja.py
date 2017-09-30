@@ -18,7 +18,7 @@ def market_ja_func():
     """
 
     print('market:')
-    print()
+    print('')
 
     market_ja_words = """    [名] [C] (1) 市場 (2) 食料品店 (3) 取引, 売買
 

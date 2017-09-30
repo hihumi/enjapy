@@ -18,7 +18,7 @@ def individual_ja_func():
     """
 
     print('individual:')
-    print()
+    print('')
 
     individual_ja_words = """    [名] [C] 個人
 

@@ -16,7 +16,7 @@ def maintain_ja_func():
     """
 
     print('maintain:')
-    print()
+    print('')
 
     maintain_ja_words = """    [動] (1) ...(関係等)を維持する (2) ...(機械等)を手入れする (3) ...と主張する"""
 

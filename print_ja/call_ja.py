@@ -18,7 +18,7 @@ def call_ja_func():
     """
 
     print('call:')
-    print()
+    print('')
 
     call_ja_words = """    [動] (1) 呼ぶ (2) 電話を掛ける
 

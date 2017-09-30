@@ -16,7 +16,7 @@ def assure_ja_func():
     """
 
     print('assure:')
-    print()
+    print('')
 
     assure_ja_words = """    [動] (1) ...を確実にする (2) ...を保証する"""
 
